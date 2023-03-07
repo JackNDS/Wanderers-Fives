@@ -6,6 +6,10 @@
   --primary: #000;
 }
 
+.no-scroll {
+  overflow-y: hidden !important;
+}
+
 body {
   font-family: 'Gilroy Light', sans-serif;
   overflow: hidden;
@@ -212,6 +216,10 @@ nav {
 .mobile-menu ul {
   position: relative;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobile-menu ul li a {

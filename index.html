@@ -101,26 +101,25 @@
    <script>
        $(window).on("load", function(){
            $(".mural-container").delay(2000).fadeOut(1000, function() {
-            $('body').css('overflow', 'auto');
+            $('body').css('overflow-y', 'auto');
           $(this).remove();
        });
-       $('body').css('overflow', 'hidden'); 
+       $('body').css('overflow-y', 'hidden'); 
       });
 
       $(function() {
           $(window).on("load", function() {
-          $('body').css('overflow', 'hidden');
+          $('body').css('overflow-y', 'hidden');
         });
 
         $(document).scroll(function() {
           if ($('.mural-container').length) {
             $(document).scrollTop(0);
           } else {
-         $('body').css('overflow', 'auto');
+         $('body').css('overflow-y', 'auto');
           }
       });
     });
-
     </script> 
 </body>
 </html>
