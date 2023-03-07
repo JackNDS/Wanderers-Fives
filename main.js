@@ -4,23 +4,14 @@ const navLinks = document.querySelectorAll('.nav-link');
 const btn = document.querySelector('.btn');
 const mobilebtn = document.querySelector('.mobile-btn');
 const menu = document.getElementById('mobile-menu');
-const mural = document.querySelector('#mural');
 
-// Mural loading before website content
-let muralLoaded = false;
-
-mural.addEventListener('load', () => {
-  muralLoaded = true;
-  loadRemainingContent();
+window.addEventListener("load", function() {
+  var mural = document.getElementById("mural");
+  mural.addEventListener("load", function() {
+    document.body.classList.remove("loading");
+  });
 });
 
-function loadRemainingContent() {
-  if (muralLoaded) {
-    // Load the rest of the content here
-  } else {
-    setTimeout(loadRemainingContent, 100);
-  }
-}
 
 let vh = window.innerHeight * 0.01;
 
