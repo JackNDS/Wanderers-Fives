@@ -23,11 +23,6 @@ button {
 nav {
   z-index: 7;
 }
-
-.loading {
-  display: none;
-}
-
 /* Defining Background Colours */
 .bg-primary {
   background-color: black;

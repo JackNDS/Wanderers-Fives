@@ -5,10 +5,10 @@ const btn = document.querySelector('.btn');
 const mobilebtn = document.querySelector('.mobile-btn');
 const menu = document.getElementById('mobile-menu');
 
-window.addEventListener("load", function() {
-  var mural = document.getElementById("mural");
-  mural.addEventListener("load", function() {
-    document.body.classList.remove("loading");
+window.addEventListener('load', function() {
+  var mural = document.getElementById('mural');
+  mural.addEventListener('load', function() {
+    document.body.classList.remove('loading');
   });
 });
 

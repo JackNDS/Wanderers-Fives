@@ -100,6 +100,9 @@
     <script>
       $(window).on("load", function(){
         $(".mural-container").delay(2000).fadeOut(1000);
+        mural.addEventListener('load', function() {
+        document.body.classList.remove('loading');
+        });
       });
     </script>
 </body>
