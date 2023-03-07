@@ -48,6 +48,24 @@ export default class extends AbstractView {
           </div>
     
         </div>
+        <!-- Explore Section -->
+        <div class="explore-container">
+      <div class="explore-heading font-everlooser text-white">EXPLORE</div>
+      <div class="explore">
+        <a href="/about" data-link><div class="card font-everlooser text-black">
+          ABOUT US
+        </div></a>
+        <a href=""><div class="card font-everlooser text-WSWRed">
+          WHY PLAY FIVES?
+        </div></a>
+        <a href=""><div class="card font-everlooser text-black">
+          FOOTBALL CONCEPT
+        </div></a>
+        <a href=""><div class="card font-everlooser text-WSWRed">
+          HOUSE RULES
+        </div></a>
+      </div>
+    </div>
         `;   
     }
 }

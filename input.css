@@ -260,7 +260,7 @@ nav {
   min-height: 80vh;
   padding: 100px;
   border-right: solid 3px rgb(229 231 235);
-  border-bottom: solid 3px rgb(229 231 235);
+  border-bottom: solid 2px rgb(229 231 235);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -367,6 +367,88 @@ nav {
   transform: translateY(-5px);
 }
 
+/* Explore Section of Home Page */
+
+.explore-container {
+  background: var(--primary);
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.explore-heading {
+  font-size: 50px;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  width: 280px;
+  height: 350px;
+  background: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 35px;
+  box-shadow: -20px 0 20px -20px rgba(0, 0, 0, 0.5);
+  transition: 0.2s all;
+}
+
+.card:hover {
+  background: #f5f5f5;
+}
+
+/* Billboard */
+.billboard {
+  width: 100%;
+}
+.billboard img {
+  width: 100vw;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background: var(--primary);
+  color: white;
+  padding-bottom: 20px;
+  border-top: solid 2px rgb(229 231 235);
+}
+
+.footer-container {
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-logo {
+  margin: 0 50px;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.footer-logo img {
+  width: auto;
+}
+
+.copyright {
+  text-align: center;
+  color: #fafafa;
+  opacity: 0.6;
+}
+/* Media Queries */
+
 @media (max-width: 1300px) {
   .nav-link {
     margin-left: 20px;
@@ -403,6 +485,12 @@ nav {
   .logo {
     height: 55px;
   }
+  .card {
+    width: 250px;
+    height: 320px;
+    padding: 40px;
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 1150px) {
@@ -428,6 +516,12 @@ nav {
   .showcase-text button {
     font-size: 20px;
   }
+  .card {
+    width: 220px;
+    height: 270px;
+    padding: 40px;
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -446,12 +540,15 @@ nav {
   .showcase-text button {
     font-size: 20px;
   }
+  .card {
+    width: 180px;
+    height: 250px;
+    padding: 20px;
+    font-size: 27px;
+  }
 }
 
 @media (max-width: 800px) {
-  .grid .default {
-    padding-left: 70px;
-  }
   .showcase {
     border-right: none;
     padding: 60px;
@@ -475,14 +572,30 @@ nav {
   .social i {
     font-size: 27px;
   }
-  .grid .default {
-    padding-left: 50px;
-  }
   .default h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .default p {
     font-size: 20px;
+  }
+  .default {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+  .explore {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    font-size: 36px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -515,6 +628,32 @@ nav {
   .navbar {
     padding-left: 30px;
   }
+  .explore-heading {
+    font-size: 40px;
+  }
+  .card {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    font-size: 32px;
+  }
+  .footer-container {
+    padding: 20px 20px;
+    flex-direction: column;
+  }
+  .privacy {
+    margin-bottom: 10px;
+  }
+  .terms {
+    order: 2;
+  }
+  .footer-logo {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .copyright {
+    padding: 0 40px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -538,6 +677,12 @@ nav {
   .showcase-text .heading {
     font-size: 37px;
   }
+  .card {
+    width: 270px;
+    height: 200px;
+    padding: 20px;
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 330px) {
@@ -560,5 +705,11 @@ nav {
   }
   .mobile-menu ul {
     margin-top: 50px;
+  }
+  .card {
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    font-size: 30px;
   }
 }
