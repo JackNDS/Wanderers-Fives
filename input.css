@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Gilroy Light', sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 h1 {
