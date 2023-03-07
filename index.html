@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <title>Wanderers Fives</title>
     <meta name="description" content="WSW Five-A-Side Centre. Competitions, Parties, Pitch Hire & More">
 </head>
 <body>
-    
+    <div class="mural-container">
+      <img src="/img/mural.png" alt="Mural" class="mural">
+    </div>
+
+
+
     <!-- Home Page - Section 1 -->
     <header>
         <!-- Navbar -->
@@ -19,29 +25,30 @@
             <div class="flex items-center justify-between">
                 <!-- Logo -->
                 <div class="ml-5">
-                    <img src="/img/logo-white-red.png" alt="Wanderers Fives" class="h-16 hover:-translate-y-1 transition ease-in-out duration-500 logo logo-1">
-                    <img src="/img/logo-white.png" alt="Wanderers Fives" class="h-16 hover:-translate-y-1 transition ease-in-out duration-500 logo logo-2 hidden">
+                   <img src="/img/logo-white-red.png" alt="Wanderers Fives" class="h-14 hover:-translate-y-1 transition ease-in-out duration-500 logo logo-1">
+                    <img src="/img/logo-white.png" alt="Wanderers Fives" class="h-14 hover:-translate-y-1 transition ease-in-out duration-500 logo logo-2 hidden">
                 </div>
                 <!-- Menu Items -->
                 <div class="nav-items font-everlooser text-2xl mt-2 tracking-wide text-white items-center mobilenav:flex hidden order-2 mobilenav:order-1">
-                    <a class="nav-link relative " href="#">ABOUT US</a>
-                    <a class="nav-link relative" href="#">FIVE-A-SIDE</a>
-                    <a class="nav-link relative" href="#">PITCH HIRE</a>
+                    <a class="nav-link relative " href="/home" data-link>HOME</a>
+                    <a class="nav-link relative " href="/about" data-link>ABOUT US</a>
+                    <a class="nav-link relative" href="/five-a-side" data-link>FIVE-A-SIDE</a>
+                    <a class="nav-link relative" href="/pitch-hire" data-link>PITCH HIRE</a>
                     <a class="nav-link relative" target="popup" href="https://wanderers.duktag.net/duktag/fixture.cfm?" onclick="window.open('https://wanderers.duktag.net/duktag/fixture.cfm?','popup','width=500,height=800,left=400,top=100'); return false;">FIXTURES & RESULTS</a>
-                    <a class="nav-link relative" href="#">CONTACT</a>
+                    <a class="nav-link relative" href="/contact" data-link>CONTACT</a>
                 </div>
                 <!--Colour Change Button -->
                 
                 <div class="order-1 mobilenav:order-2">
                     <a href="#" class=" theme-toggle ">
                         <!-- SVG code from Adobe XD Design -->
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="72.721" viewBox="0 0 49 72.721">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="56" viewBox="0 0 49 56">
                           <defs>
                             <clipPath id="clip-path">
                               <rect id="Rectangle_63" data-name="Rectangle 63" width="27" height="56" transform="translate(-0.379 -0.286)" fill="#c60c30" stroke="#fff" stroke-width="2"/>
                             </clipPath>
                           </defs>
-                          <g id="Group_16" data-name="Group 16" transform="translate(-1259 -36.279)">
+                          <g id="Group_16" data-name="Group 16" transform="translate(-1259 -53)">
                             <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(1259 60)" stroke="#fff" stroke-width="2">
                               <circle cx="22" cy="22" r="22" stroke="none"/>
                               <circle cx="22" cy="22" r="21" fill="none"/>
@@ -53,8 +60,8 @@
                               </g>
                             </g>
                           </g>
-                          <path id="Path_8" data-name="Path 8" d="M8.894,0,6.571,6.332,0,6.37l5.452,4.037-2.01,6.314,5.451-3.847,5.339,3.847-1.95-6.342L17.735,6.37H10.961Z" transform="translate(13.132 0)" fill="#d9ad13"/>
                         </svg>
+                        
                         
                     </a>
                 </div>
@@ -73,57 +80,28 @@
 
         <div id="mobile-menu" class="mobilenav:hidden mobile-menu text-2xl font-everlooser bg-primary text-white text-center z-0">
           <ul>
-              <li class="mb-6"><a href="#">HOME</a></li>
-              <li class="mb-6"><a href="/about.html">ABOUT US</a></li>
-              <li class="mb-6" id="coaching2"><a href="#">FIVE-A-SIDE</a></li>
-              <li class="mb-6"><a href="#">PITCH HIRE</a></li>
+              <li class="mb-6"><a href="/home" data-link>HOME</a></li>
+              <li class="mb-6"><a href="/about" data-link>ABOUT US</a></li>
+              <li class="mb-6"><a href="/five-a-side" data-link>FIVE-A-SIDE</a></li>
+              <li class="mb-6"><a href="/pitch-hire" data-link>PITCH HIRE</a></li>
               <li class="mb-6"><a target="popup" href="https://wanderers.duktag.net/duktag/fixture.cfm?" onclick="window.open('https://wanderers.duktag.net/duktag/fixture.cfm?','popup','width=500,height=800,left=400,top=100'); return false;">FIXTURES & RESULTS</a></li>
-              <li><a href="#contact">CONTACT</a></li>
+              <li><a href="/contact" data-link>CONTACT</a></li>
           </ul>
       </div>
 
     </header>
 
-    <!-- Grid Section for Showcase -->
-    <div id="home" class="grid grid-rows-2 grid-cols-6">
-      <!-- Main Showcase 1 of 3-->
-    
-      <div class="showcase border-solid border-gray-200 border-t-2 border-l-0 col-span-6 md:col-span-4 row-span-2" id="showcase">
+    <div id="app"></div> 
 
-      <div class="main-img" ></div>
+   
 
-      <div class="overlay"></div>
-
-      <div class="showcase-text mt-10 xs:mt-0">
-          <h1 class="heading text-4xl sm:text-5xl lg:text-6xl  drop-shadow-lg">FIVE-A-SIDE FOOTBALL</h1>
-          <div class="sub-heading mt-2 mb-4 text-xl sm:text-4xl tracking-tight drop-shadow-lg">Competitions now open</div>
-          <a href="#"><button class="btn -ml-1 bg-primary shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Learn More</button></a>
-      </div>
-
-      <ul class="social">
-          <li><a target="popup" name="facebook" href="https://www.facebook.com/wswanderersfc"><i class="fa-brands fa-facebook"></i></a></li>
-          <li><a target="popup" name="instagram" href="https://www.instagram.com/wswanderersfc/"><i class="fa-brands fa-instagram"></i></a></li>
-          <li><a target="popup" name="twitter" href="https://twitter.com/wswanderersfc/"><i class="fa-brands fa-twitter"></i></a></li>
-          <li><a target="popup" name="youtube" href="https://www.youtube.com/c/WSWanderersTV"><i class="fa-brands fa-youtube"></i></a></li>
-      </ul>
-      </div>
-
-      <div class="flex default items-end parties col-span-6 md:col-span-2 p-10 border-solid border-gray-200 md:border-t-2 border-l-0 text-white" id="parties">
-        <a href="#home">
-        <h1 class="text-4xl drop-shadow-lg">PARTIES</h1>
-        <p class="text-2xl tracking-tight drop-shadow-lg">The Ultimate Birthday Experience</p>
-        </a>
-      </div>
-
-      <div class="flex default items-end hire col-span-6 md:col-span-2 p-10 border-solid border-gray-200 border-t-2 border-b-2 border-l-0 text-white" id="parties">
-        <a href="#home">
-        <h1 class="text-4xl drop-shadow-lg">PITCH HIRE</h1>
-        <p class="text-2xl tracking-tight drop-shadow-lg">Book Our World Class Courts</p>
-        </a>
-      </div>
-
-    </div>
-
+    <script type="module" src="/static/js/index.js"></script>
     <script src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(window).on("load", function(){
+        $(".mural-container").delay(2000).fadeOut(1000);
+      });
+    </script>
 </body>
 </html>

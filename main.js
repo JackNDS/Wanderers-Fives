@@ -6,11 +6,13 @@ const mobilebtn = document.querySelector('.mobile-btn');
 const menu = document.getElementById('mobile-menu');
 
 
+let vh = window.innerHeight * 0.01;
+
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
 themeToggle.addEventListener('click', function() {
   nav.classList.toggle('bg-secondary');
   nav.classList.toggle('bg-primary');
-  btn.classList.toggle('bg-primary');
-  btn.classList.toggle('bg-secondary');
   menu.classList.toggle('bg-primary');
   menu.classList.toggle('bg-secondary');
   navLinks.forEach(function(navLink) {
@@ -22,13 +24,27 @@ themeToggle.addEventListener('click', function() {
   nav.classList.toggle('toggle-logo-2');
 });
 
-mobilebtn.addEventListener('click', function() {
-  mobilebtn.classList.toggle('is-menu-open');
-}, 1500
-);
+themeToggle.addEventListener('click', function() {
+  if (getComputedStyle(document.documentElement).getPropertyValue('--primary') === '#c60c30') {
+    document.documentElement.style.setProperty('--primary', 'black');
+  } else {
+    document.documentElement.style.setProperty('--primary', '#c60c30');
+  }
+});
+
 
 function navToggle() {
-  menu.classList.toggle('open')
+  menu.classList.toggle('open');
+  mobilebtn.classList.toggle('is-menu-open');
 }
 
-mobilebtn.addEventListener('click', navToggle)
+mobilebtn.addEventListener('click', navToggle);
+
+// get all the links in the mobile menu
+const links = menu.querySelectorAll('a');
+
+// add event listeners to all links to toggle the mobile menu off
+links.forEach(function(link) {
+  link.addEventListener('click', navToggle);
+  
+});
