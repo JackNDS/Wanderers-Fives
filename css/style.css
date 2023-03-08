@@ -2366,9 +2366,15 @@ video {
   overflow-y: hidden !important;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Gilroy Light', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
 }
 
 h1 {
