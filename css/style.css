@@ -714,6 +714,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2360,6 +2364,7 @@ video {
 
 :root {
   --primary: #000;
+  --secondary: #c60c30;
 }
 
 .no-scroll {
@@ -2720,6 +2725,81 @@ nav {
   background-position: center;
 }
 
+/* Five A Side Sub-Events 1 & 2 in Grid */
+
+.event1 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/img/jdshootout.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.event1:hover {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('/img/jdshootout.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.event2 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/img/asiancup.png');
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.event2:hover {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('/img/asiancup.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Sub Pages */
+
+.sub-page {
+  position: relative;
+  right: 0;
+  width: 100%;
+  padding: 60px 120px 40px 120px;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: solid 2px rgb(229 231 235);
+  background: var(--primary);
+  color: #fff;
+  z-index: 2;
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.sub-page h1 {
+  font-family: 'everlooser', sans-serif;
+  font-size: 60px;
+}
+
+.sub-page p {
+  font-size: 25px;
+  max-width: 70%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sub-page .btn {
+  background: white;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
 /* Socials */
 
 .social {
@@ -2940,6 +3020,15 @@ html.is-animating .transition-fade {
     padding: 40px;
     font-size: 30px;
   }
+
+  .sub-page {
+    padding: 50px 80px 40px 80px;
+  }
+
+  .sub-page p {
+    font-size: 25px;
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 990px) {
@@ -3044,11 +3133,25 @@ html.is-animating .transition-fade {
     -o-object-fit: contain;
        object-fit: contain;
   }
+
+  .sub-page {
+    padding: 50px 40px 40px 40px;
+  }
+
+  .sub-page h1 {
+    font-size: 45px;
+  }
+
+  .sub-page p {
+    font-size: 20px;
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 480px) {
   .showcase {
     padding: 40px;
+    justify-content: center;
   }
 
   .showcase-text {
@@ -3113,6 +3216,23 @@ html.is-animating .transition-fade {
 
   .copyright {
     padding: 0 40px;
+  }
+
+  .sub-page {
+    padding: 50px 20px 40px 20px;
+  }
+
+  .sub-page h1 {
+    font-size: 40px;
+  }
+
+  .sub-page p {
+    font-size: 20px;
+    max-width: 90%;
+  }
+
+  .sub-page .btn {
+    font-size: 18px;
   }
 }
 
