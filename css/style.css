@@ -1817,6 +1817,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-16 {
+  padding: 4rem;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -2772,6 +2776,18 @@ nav {
   background: #f5f5f5;
 }
 
+/* Facility Map */
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map img {
+  height: 600px;
+}
+
 /* Billboard */
 
 .billboard {
@@ -2817,6 +2833,15 @@ footer {
   text-align: center;
   color: #fafafa;
   opacity: 0.6;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
 }
 
 /* Media Queries */
@@ -2936,6 +2961,10 @@ footer {
     padding: 20px;
     font-size: 27px;
   }
+
+  .map img {
+    height: 500px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -2997,6 +3026,14 @@ footer {
     padding: 20px;
     font-size: 36px;
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .map-container {
+    padding: 40px;
+  }
+
+  .map img {
+    height: 100%;
   }
 }
 
@@ -3067,6 +3104,10 @@ footer {
 
   .copyright {
     padding: 0 40px;
+  }
+
+  .map-container {
+    padding: 25px;
   }
 }
 

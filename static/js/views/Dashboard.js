@@ -65,6 +65,12 @@ export default class extends AbstractView {
         </div></a>
       </div>
     </div>
+
+    <div class="map-container p-16">
+      <div class="map">
+        <img src="/img/map.png" alt="">
+      </div>
+    </div>
         `;   
     }
 }

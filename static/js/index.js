@@ -2,6 +2,8 @@ import Dashboard from "./views/Dashboard.js";
 import About from "./views/About.js";
 import Contact from "./views/Contact.js";
 import Home from "./views/Home.js";
+import PitchHire from "./views/PitchHire.js";
+import FiveASide from "./views/FiveASide.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -12,8 +14,8 @@ const router = async () => {
     const routes = [
         { path: "/", view: Dashboard },
         { path: "/about", view: About },
-       // { path: "/five-a-side", view: () => console.log("Viewing Five A Side") },
-       // { path: "/pitch-hire", view: () => console.log("Viewing Pitch Hire") },
+       { path: "/five-a-side", view: FiveASide},
+       { path: "/pitch-hire", view: PitchHire},
        { path: "/contact", view: Contact },
        { path: "/home", view: Home },
     ];

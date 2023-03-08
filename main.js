@@ -6,6 +6,7 @@ const mobilebtn = document.querySelector('.mobile-btn');
 const menu = document.getElementById('mobile-menu');
 const mural = document.querySelector('.mural');
 const body = document.querySelector('body');
+const swup = new Swup();
 
 
 let vh = window.innerHeight * 0.01;
