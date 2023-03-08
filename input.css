@@ -411,6 +411,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .map img {
   height: 600px;
@@ -622,6 +623,7 @@ html.is-animating .transition-fade {
   }
   .map-container {
     padding: 40px;
+    height: 100%;
   }
   .map img {
     height: 100%;
