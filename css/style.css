@@ -2811,6 +2811,10 @@ nav {
   height: 150vh;
 }
 
+.general-terms {
+  text-align: left;
+}
+
 /* Socials */
 
 .social {
