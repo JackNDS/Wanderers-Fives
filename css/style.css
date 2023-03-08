@@ -2790,6 +2790,8 @@ nav {
 .sub-page h1 {
   font-family: 'everlooser', sans-serif;
   font-size: 60px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .sub-page p {
@@ -3070,10 +3072,6 @@ html.is-animating .transition-fade {
 
   .map img {
     height: 500px;
-  }
-
-  #book {
-    width: 100px;
   }
 }
 
