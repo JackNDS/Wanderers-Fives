@@ -3032,12 +3032,12 @@ html.is-animating .transition-fade {
   }
 
   .map-container {
-    padding: 40px;
+    padding: 10px;
   }
 
   .map img {
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 
@@ -3108,10 +3108,6 @@ html.is-animating .transition-fade {
 
   .copyright {
     padding: 0 40px;
-  }
-
-  .map {
-    padding: 50px;
   }
 }
 

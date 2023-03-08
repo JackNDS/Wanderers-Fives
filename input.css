@@ -623,10 +623,10 @@ html.is-animating .transition-fade {
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
   }
   .map-container {
-    padding: 40px;
+    padding: 10px;
   }
   .map img {
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 
@@ -684,9 +684,6 @@ html.is-animating .transition-fade {
   }
   .copyright {
     padding: 0 40px;
-  }
-  .map {
-    padding: 50px;
   }
 }
 
