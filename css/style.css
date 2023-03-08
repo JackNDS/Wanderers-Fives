@@ -2787,6 +2787,8 @@ nav {
 
 .map img {
   height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* Billboard */
