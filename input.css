@@ -427,6 +427,10 @@ nav {
   margin-bottom: 15px;
 }
 
+.pitch-hire .sub-page {
+  height: 150vh;
+}
+
 /* Socials */
 .social {
   position: absolute;
@@ -658,6 +662,9 @@ html.is-animating .transition-fade {
   }
   .map img {
     height: 500px;
+  }
+  #book {
+    width: 100px;
   }
 }
 

@@ -14,10 +14,6 @@
     <meta name="description" content="WSW Five-A-Side Centre. Competitions, Parties, Pitch Hire & More">
 </head>
 <body>
-
-     <div class="mural-container">
-         <img src="/img/mural.png" id="mural" alt="Mural" class="mural">
-      </div>
     
     <!-- Home Page - Section 1 -->
     <header>
@@ -94,11 +90,9 @@
     </header>
 
     <main id="swup" class="transition-fade">
-    <!-- <div id="app"></div> -->
-
-    
-
+    <div id="app"></div> 
     </main>
+
    <!-- <div class="billboard">
       <img src="/img/billboard.png" alt="">
     </div> -->
@@ -113,7 +107,7 @@
        <a href="https://wswanderersfc.com.au/" target="popup"><img src="/img/wswsmall.png" alt=""></a>
       </div>
       <div class="privacy">
-        <a href="/privacy">Privacy Policy</a>
+        <a href="https://keepup.com.au/privacy-policy/" target="popup">Privacy Policy</a>
       </div>
     </div>
     <div class="copyright">
@@ -123,28 +117,5 @@
 
     <script type="module" src="/static/js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script>
-       $(window).on("load", function(){
-           $(".mural-container").delay(2000).fadeOut(1000, function() {
-            $('body').css('overflow-y', 'auto');
-          $(this).remove();
-       });
-       $('body').css('overflow-y', 'hidden'); 
-      });
-
-      $(function() {
-          $(window).on("load", function() {
-          $('body').css('overflow-y', 'hidden');
-        });
-
-        $(document).scroll(function() {
-          if ($('.mural-container').length) {
-            $(document).scrollTop(0);
-          } else {
-         $('body').css('overflow-y', 'auto');
-          }
-      });
-    });
-    </script> 
 </body>
 </html>

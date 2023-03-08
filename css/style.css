@@ -1707,6 +1707,11 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2800,6 +2805,10 @@ nav {
   margin-bottom: 15px;
 }
 
+.pitch-hire .sub-page {
+  height: 150vh;
+}
+
 /* Socials */
 
 .social {
@@ -3061,6 +3070,10 @@ html.is-animating .transition-fade {
 
   .map img {
     height: 500px;
+  }
+
+  #book {
+    width: 100px;
   }
 }
 
