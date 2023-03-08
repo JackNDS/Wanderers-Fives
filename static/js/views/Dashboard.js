@@ -39,13 +39,12 @@ export default class extends AbstractView {
             </a>
           </div>
     
-          <a href="/pitch-hire">
           <div class="flex default items-end hire col-span-6 md:col-span-2 p-10 border-solid border-gray-200 border-t-2 border-b-2 border-l-0 text-white" id="parties">
-            
+            <a href="/pitch-hire">
             <h1 class="text-4xl drop-shadow-lg">PITCH HIRE</h1>
             <p class="text-2xl tracking-tight drop-shadow-lg">Book Our World Class Pitches</p>
+            </a>
           </div>
-          </a>
     
         </div>
         <!-- Explore Section -->
