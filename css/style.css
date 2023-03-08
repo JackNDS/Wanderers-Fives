@@ -3110,8 +3110,8 @@ html.is-animating .transition-fade {
     padding: 0 40px;
   }
 
-  .map-container {
-    padding: 25px;
+  .map {
+    padding: 50px;
   }
 }
 
