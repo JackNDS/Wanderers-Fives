@@ -2811,7 +2811,7 @@ nav {
   height: 150vh;
 }
 
-.general-terms {
+.general-terms .sub-page p {
   text-align: left;
 }
 

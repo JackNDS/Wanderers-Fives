@@ -8,7 +8,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-        <div class="sub-page">
+        <div class="sub-page general-terms">
         <h1 class="drop-shadow-lg">FIVES PARTICIPANT WAIVER</h1>
         <p class="drop-shadow-lg">
 
@@ -24,7 +24,7 @@ export default class extends AbstractView {
         <br><br>
         </p>
         <h1 class="drop-shadow-lg">GENERAL TERMS & CONDITIONS</h1>
-        <p class="drop-shadow-lg general-terms">
+        <p class="drop-shadow-lg">
 
         1. In registering for the Wanderers 5s, participants agree to privacy policy terms from the Australian Professional Leagues.<br>
         2. Registered participants agree to receive marketing from the Western Sydney Wanderers FC and its partners.<br>
