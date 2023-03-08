@@ -9,7 +9,7 @@ export default class extends AbstractView {
     async getHtml() {
         return `
         <div class="sub-page">
-        <h1 class="drop-shadow-lg">TERMS & CONDITIONS</h1>
+        <h1 class="drop-shadow-lg">FIVES PARTICIPANT WAIVER</h1>
         <p class="drop-shadow-lg">
 
         All persons entering the premises of Wanderers 5s accept responsibility for any injury or illness arising out of or in connection with their participation in activities at the premises.
@@ -22,6 +22,17 @@ export default class extends AbstractView {
         <br><br>
         In hiring Wanderers 5s fields/facilities,  the hirer understands and accepted these conditions of entry/use for any persons attending their booking.
         <br><br>
+        </p>
+        <h1 class="drop-shadow-lg">GENERAL TERMS & CONDITIONS</h1>
+        <p class="drop-shadow-lg">
+
+        1. In registering for the Wanderers 5s, participants agree to privacy policy terms from the Australian Professional Leagues.<br>
+        2. Registered participants agree to receive marketing from the Western Sydney Wanderers FC and its partners.<br>
+        3. Teams registering for competitions acknowledge the season is paid in advance and will not be refunded for withdrawing from the competition or failing to attend fixtures.<br>
+        4. All valid refunds ( forfeits or venue closure due to unforeseen circumstances) will be processed at the conclusion of the season<br>
+        5.	Bookings will not be refunded during inclement weather. Bookings disrupted by lightning will be rescheduled.<br>
+        6.	Cancellation of long term bookings take effect 14 days from notification during a booked period.<br>
+
         </p>
 </div>
 `;   
