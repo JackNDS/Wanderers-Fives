@@ -17,8 +17,8 @@ export default class extends AbstractView {
 
         <h1>Request Form</h1>
         <div class="party-container">
-        <form name="Birthday Party Submission" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>
-            <input type="hidden" name="form-name" value="Birthday Party Submission">
+        <form name="Party" method="POST" netlify-honeypot="bot-field" data-netlify="true" >
+            <input type="hidden" name="form-name" value="Party">
                  <p class="hidden">
                 <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
                 </p>
