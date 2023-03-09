@@ -7,27 +7,6 @@ const menu = document.getElementById('mobile-menu');
 const mural = document.querySelector('.mural');
 const body = document.querySelector('body');
 
-const products = document.querySelectorAll('input[name="products[]"]');
-  const totalElement = document.querySelector('#total');
-
-  
-  let total = 0;
-
-  products.forEach(product => {
-    product.addEventListener('change', () => {
-      const value = parseFloat(product.value);
-      if (product.checked) {
-        total += value;
-      } else {
-        total -= value;
-      }
-      totalElement.textContent = total.toFixed(2);
-    });
-  });
-
-  
-  
-
 
 let vh = window.innerHeight * 0.01;
 
