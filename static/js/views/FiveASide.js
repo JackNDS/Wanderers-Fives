@@ -48,7 +48,6 @@ export default class extends AbstractView {
     
         </div>
 
-        <div class="sub-page">
         <h1 class="drop-shadow-lg">WHY PLAY AT WANDERERS FIVES?</h1>
         <p class="drop-shadow-lg">
 
@@ -58,10 +57,11 @@ export default class extends AbstractView {
         <br><br>
         Register as a social group with no affiliation to any club or association
         <br><br>
-        Personal Accident Cover for all registered participants in line with the sports governing body<br><br>
+        Personal Accident Cover for all registered participants in line with the sports governing body<br><br></p>
 
         <h1 class="drop-shadow-lg">HOW ITS PLAYED</h1><br><br>
 
+        <p class="drop-shadow-lg">
         Field size 33m x 20m
         <br><br>
 5 players on the pitch including a keeper.
