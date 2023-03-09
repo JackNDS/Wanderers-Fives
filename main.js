@@ -52,3 +52,34 @@ links.forEach(function(link) {
   link.addEventListener('click', navToggle);
   
 });
+
+
+// Party Form JS //
+function submitForm(event) {
+  event.preventDefault(); // Prevents the form from submitting normally
+
+  const form = document.getElementById("party-form"); // Get the form element
+  const inputs = form.querySelectorAll('input[type="checkbox"]'); // Get all the checkboxes in the form
+  const formData = new FormData(form); // Create a new FormData object to store the form data
+
+  // Loop through the checkboxes and add the values to the FormData object only if they are checked
+  for (let i = 0; i < inputs.length; i++) {
+    if (inputs[i].checked) {
+      formData.append(inputs[i].name, inputs[i].value);
+    }
+  }
+
+  // Submit the form with the updated FormData object
+  fetch(form.action, {
+    method: form.method,
+    body: formData
+  })
+    .then(response => {
+      // Handle the form submission response
+      console.log(response);
+    })
+    .catch(error => {
+      // Handle the form submission error
+      console.error(error);
+    });
+}
