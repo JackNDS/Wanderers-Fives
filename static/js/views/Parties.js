@@ -15,6 +15,7 @@ export default class extends AbstractView {
         In the request form below, please let us know your preferred date and time in the message field.</p><br><br>
 
         <a href="/party-form" target="popup"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Book a Party</button></a>
+        </div>
 `;   
     }
 }
