@@ -33,6 +33,7 @@ button {
 nav {
   z-index: 7;
 }
+
 /* Defining Background Colours */
 .bg-primary {
   background-color: black;
@@ -530,6 +531,132 @@ nav {
 .billboard img {
   width: 100vw;
   object-fit: cover;
+}
+
+/* Party Form */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.party-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var--(primary);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: 000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+select {
+  width: 50%;
+}
+
+textarea {
+  color: #000;
+  width: 100%;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.product-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-list1 {
+  display: flex;
+  flex-direction: column;
+}
+.product-list2 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.product input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.product label {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.total {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.submit {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit input[type='submit'] {
+  padding: 10px 40px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.submit input[type='submit']:hover {
+  background-color: #eee;
+}
+
+@media screen and (max-width: 600px) {
+  .product-list {
+    flex-direction: column;
+  }
+
+  .product {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .product:nth-child(2) {
+    margin-top: 10px;
+  }
+
+  select {
+    width: 100%;
+  }
 }
 
 /* Footer */
