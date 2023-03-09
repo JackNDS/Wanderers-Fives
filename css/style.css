@@ -2662,9 +2662,24 @@ nav {
   -o-object-fit: fill;
      object-fit: fill;
   z-index: 2;
-  background: url('/img/fivespitches1.png');
+  background: url('/img/fivespitches1.webp');
   background-size: cover;
   background-position: center;
+}
+
+.main-img.fiveaside {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 2;
+  background: url('/img/fiveaside.webp');
+  background-size: cover;
+  background-position: center left;
 }
 
 .showcase-text {
@@ -2682,7 +2697,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 4;
 }
 

@@ -14,7 +14,7 @@ export default class extends AbstractView {
         
           <div class="showcase border-solid border-gray-200 border-t-2 border-l-0 col-span-6 md:col-span-4 row-span-2" id="showcase">
     
-          <div class="main-img" ></div>
+          <div class="main-img fiveaside" ></div>
     
           <div class="overlay"></div>
     

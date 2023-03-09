@@ -5,6 +5,7 @@ import Home from "./views/Home.js";
 import PitchHire from "./views/PitchHire.js";
 import FiveASide from "./views/FiveASide.js";
 import Terms from "./views/Terms.js";
+import Parties from "./views/Parties.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -20,6 +21,7 @@ const router = async () => {
        { path: "/contact", view: Contact },
        { path: "/home", view: Home },
        { path: "/terms", view: Terms },
+       { path: "/parties", view: Parties},
     ];
     // Test each route for potential match
     const potentialMatches = routes.map(route => {
