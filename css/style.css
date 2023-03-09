@@ -2948,6 +2948,8 @@ label {
 
 input[type='text'],
 input[type='email'],
+input[type='date'],
+input[type='time'],
 input[type='tel'],
 select {
   display: block;
