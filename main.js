@@ -7,6 +7,24 @@ const menu = document.getElementById('mobile-menu');
 const mural = document.querySelector('.mural');
 const body = document.querySelector('body');
 
+// Get all the form inputs
+const formInputs = document.querySelectorAll('input');
+
+// Filter the checked inputs
+const checkedInputs = [...formInputs].filter(input => input.checked);
+
+// Create a new FormData object with only the checked inputs
+const formData = new FormData();
+checkedInputs.forEach(input => formData.append(input.name, input.value));
+
+// Submit the form with the filtered FormData object
+fetch('/', {
+  method: 'POST',
+  body: formData
+})
+  .then(() => console.log('Form submitted successfully!'))
+  .catch(error => console.error(error));
+
 
 let vh = window.innerHeight * 0.01;
 
@@ -53,33 +71,3 @@ links.forEach(function(link) {
   
 });
 
-
-// Party Form JS //
-function submitForm(event) {
-  event.preventDefault(); // Prevents the form from submitting normally
-
-  const form = document.getElementById("party-form"); // Get the form element
-  const inputs = form.querySelectorAll('input[type="checkbox"]'); // Get all the checkboxes in the form
-  const formData = new FormData(form); // Create a new FormData object to store the form data
-
-  // Loop through the checkboxes and add the values to the FormData object only if they are checked
-  for (let i = 0; i < inputs.length; i++) {
-    if (inputs[i].checked) {
-      formData.append(inputs[i].name, inputs[i].value);
-    }
-  }
-
-  // Submit the form with the updated FormData object
-  fetch(form.action, {
-    method: form.method,
-    body: formData
-  })
-    .then(response => {
-      // Handle the form submission response
-      console.log(response);
-    })
-    .catch(error => {
-      // Handle the form submission error
-      console.error(error);
-    });
-}
