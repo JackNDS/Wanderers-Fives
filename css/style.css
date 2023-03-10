@@ -2771,7 +2771,7 @@ nav {
 
 .event2 {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('/img/asiancup.png');
+    url('/img/asiancup.webp');
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -2781,7 +2781,7 @@ nav {
 
 .event2:hover {
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url('/img/asiancup.png');
+    url('/img/asiancup.webp');
   background-size: cover;
   background-position: center;
 }
@@ -2857,6 +2857,13 @@ nav {
 
 .five-a-side.sub-page p {
   text-align: left;
+}
+
+.hide-text {
+  color: var(--primary);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 /* Socials */

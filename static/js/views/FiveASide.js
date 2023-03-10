@@ -71,7 +71,8 @@ No out of bounds and modified goals
 <br><br>
 Unlimited subs with up to 10 players per team
 <br><br>
-No slide tackles permitted.<br><br>
+No slide tackles permitted.
+<span class="hide-text">Personal Accident Cover for all registered participants in line with the sports governing body</span>
 </p>
 
     
