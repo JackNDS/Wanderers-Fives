@@ -2828,11 +2828,12 @@ nav {
 }
 
 .pitch-hire .sub-page {
-  height: 150vh;
+  height: 200vh;
 }
 
 .hire-container {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
