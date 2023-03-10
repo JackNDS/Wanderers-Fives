@@ -48,7 +48,7 @@ export default class extends AbstractView {
         </div>
   
       </div>
-      <div class="sub-page">
+      <div class="sub-page five-a-side">
       <h1 class="drop-shadow-lg">WHY PLAY AT WANDERERS FIVES?</h1>
       <p class="drop-shadow-lg">
 
@@ -99,7 +99,7 @@ No slide tackles permitted.<br><br>
       11.	 Teams will progress via elimination to Semi final and Final. The semi final losing teams will play off for 3rd place prize<br><br>
       12.	 The winning team will be awarded $1000 in vouchers from JD Sports, The runner up receives $600  and the 3rd placed team $250 in vouchers. <br><br>
       
-      
+
 </p>
 <a href="https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1" target="popup" onclick="window.open('https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1','popup','width=600,height=800,left=100,top=100'); return false;"><button class="btn mt-6 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Regsiter Here</button></a>
 </div>
