@@ -55,13 +55,13 @@ export default class extends AbstractView {
         <a href="/about" data-link><div class="card font-everlooser text-black">
           ABOUT US
         </div></a>
-        <a href=""><div class="card font-everlooser text-WSWRed">
+        <a href="/five-a-side"><div class="card font-everlooser text-WSWRed">
           WHY PLAY FIVES?
         </div></a>
-        <a href=""><div class="card font-everlooser text-black">
+        <a href="/five-a-side"><div class="card font-everlooser text-black">
           FOOTBALL CONCEPT
         </div></a>
-        <a href=""><div class="card font-everlooser text-WSWRed">
+        <a href="/five-a-side"><div class="card font-everlooser text-WSWRed">
           HOUSE RULES
         </div></a>
       </div>
