@@ -12,12 +12,15 @@ export default class extends AbstractView {
         <div class="sub-page pitchhire">
         <h1 class="drop-shadow-lg">PITCH HIRE</h1>
         <p class="drop-shadow-lg">
-
+<div class="hire-container">
+<div class="hire1">
 Opening Hours:<br><br>
 Monday to Friday 10:00am to 11:00pm<br>
 Saturday and Sunday: 8:00am to 10:30pm<br><br>
 Long term club bookings for 2023 are open now.<br><br>
+</div>
 
+<div class="hire2">
 Rates:<br><br>
 Monday to Thursday (Peak): 6pm - 11pm<br>
 $110/hour<br><br>
@@ -25,6 +28,8 @@ All other opening hours (Off Peak):<br>
 $90/hour<br><br>
 Schools:<br>
 $90/hour<br><br>
+</div>
+</div>
 
 <a href="mailto:CMckibbins@wswanderersfc.com.au" class="underline"> Email Wanderers Fives</a></p><br><br>
 
