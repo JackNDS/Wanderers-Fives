@@ -3168,10 +3168,29 @@ footer {
   width: auto;
 }
 
-.copyright {
+.base {
   text-align: center;
   color: #fafafa;
-  opacity: 0.6;
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  margin-right: 50px;
+  margin-left: -50px;
+}
+
+.jnds {
+  display: flex;
+  justify-content: center;
+}
+
+.jnds img {
+  height: 40px;
+  margin-left: 10px;
+  margin-top: -10px;
 }
 
 .transition-fade {
@@ -3320,6 +3339,19 @@ html.is-animating .transition-fade {
 
   .map img {
     height: 500px;
+  }
+
+  .base {
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+
+  .jnds {
+    margin-top: 25px;
+    margin-bottom: 10px;
   }
 }
 
