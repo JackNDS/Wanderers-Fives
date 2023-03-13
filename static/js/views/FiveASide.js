@@ -52,9 +52,9 @@ export default class extends AbstractView {
       <div class="flyer">
         <img src="/img/wintercomp.webp" alt="">
       </div>
-      <a href="https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1" target="popup" onclick="window.open('https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1','popup','width=600,height=800,left=100,top=100'); return false;"><button class="btn mt-6 shadow-lg rounded-full py-2 sm:py-4 px-10 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Regsiter Here</button></a>
+      <a href="https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1" target="popup" onclick="window.open('https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1','popup','width=600,height=800,left=100,top=100'); return false;"><button class="btn mt-6 shadow-lg rounded-full py-2 sm:py-4 px-10 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Register Here</button></a>
     </div>
-    
+
       <div class="sub-page five-a-side">
       <h1 class="drop-shadow-lg">WHY PLAY AT WANDERERS FIVES?</h1>
       <p class="drop-shadow-lg">

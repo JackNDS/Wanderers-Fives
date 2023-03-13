@@ -38,8 +38,8 @@ export default class extends AbstractView {
             </div>
             <div class="contact-info">
               <div class="contact-email">
-               <a href="mailto:wanderersfives@wswanderersfc.com.au">
-               <i class="fas fa-envelope"></i> wanderersfives@wswanderersfc.com.au</a>
+               <a href="mailto:fives@wswanderersfc.com.au">
+               <i class="fas fa-envelope"></i>fives@wswanderersfc.com.au</a>
               </div>
               <div class="contact-phone">
                 

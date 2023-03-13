@@ -3284,6 +3284,10 @@ html.is-animating .transition-fade {
   .flyer-container {
     padding: 40px;
   }
+
+  .flyer-container button {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -3491,7 +3495,8 @@ html.is-animating .transition-fade {
   }
 
   .flyer-container {
-    padding: 0px;
+    padding: 10px;
+    padding-top: 20px;
   }
 
   .contact-email,
