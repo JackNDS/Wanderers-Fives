@@ -150,6 +150,13 @@
          $('body').css('overflow-y', 'auto');
           }
       });
+      $(document).scroll(function() {
+  if ($('body').hasClass('no-scroll')) {
+    $(document).scrollTop(0);
+  } else {
+    $('body').css('overflow-y', 'auto');
+  }
+});
     });
     </script> 
 </body>

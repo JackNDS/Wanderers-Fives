@@ -2378,7 +2378,7 @@ video {
 }
 
 .no-scroll {
-  overflow-y: hidden !important;
+  overflow-y: hidden;
 }
 
 html,

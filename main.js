@@ -56,7 +56,7 @@ themeToggle.addEventListener('click', function() {
 function navToggle() {
   menu.classList.toggle('open');
   mobilebtn.classList.toggle('is-menu-open');
-  document.body.classList.add('no-scroll');
+  document.body.classList.toggle('no-scroll');
 }
 
 
