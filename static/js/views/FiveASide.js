@@ -61,24 +61,24 @@ export default class extends AbstractView {
 
       Accessible divisions and evenly matched competitions
       <br><br>
-      Use it as an extra training run to compliment your club football.
+      Use it as an extra training run to compliment your club football
       <br><br>
       Register as a social group with no affiliation to any club or association
       <br><br>
-      Personal Accident Cover for all registered participants in line with the sports governing body<br><br></p>
+      Personal Accident Cover for all registered participants<br><br></p>
 
       <h1 class="drop-shadow-lg">HOW ITS PLAYED</h1>
 
       <p class="drop-shadow-lg">
       Field size 33m x 20m
       <br><br>
-5 players on the pitch including a keeper.
+5 players on the pitch including goalkeeper
 <br><br>
 No out of bounds and modified goals
 <br><br>
 Unlimited subs with up to 10 players per team
 <br><br>
-No slide tackles permitted.
+No slide tackles permitted
 <span class="hide-text">Personal Accident Cover for all registered participants in line with the sports governing body</span>
 </p>
 

@@ -63,9 +63,9 @@ Teams forfeiting with more than 24hrs notice will incur no additional charge bey
         <p class="drop-shadow-lg">
         Field size 33m x 20m
         <br><br>
-        1.	All teams pay $150 to enter the tournament. All players must be registered prior to the 31st of March. Registration can be completed online or manually added via competition admin staff at Wanderers 5’s<br><br>
-        2.	No player registration will be accepted on the day of the tournament March 31st 2023.<br><br>
-        3.	Teams will be drawn into Pools on Wednesday 29th March by an A League Mens Player under the supervision of Wanderers CEO Scott Hudson.<br><br>
+        1.	All teams pay $150 to enter the tournament. All players must be registered prior to the 31st of March. Registration can be completed online or manually added via competition admin staff at Wanderers 5s<br><br>
+        2.	No player registration will be accepted on the day of the tournament March 31st 2023<br><br>
+        3.	Teams will be drawn into Pools on Wednesday 29th March by an A League Mens Player under the supervision of Wanderers CEO Scott Hudson<br><br>
         4.	Fixtures will be completed and sent to teams Wednesday 29th March 2023<br><br>
         5.	Teams will play in 3 pools of 4 teams <br><br>
         6.	Teams will play 3 pool games 2 x 10 minute halves, 4 minute half time. No stoppage or injury time. All pool games will be played back-to-back in a 90 minute period<br><br>
