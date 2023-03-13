@@ -15,20 +15,20 @@ export default class extends AbstractView {
 <div class="hire1">
     <p class="drop-shadow-lg">
 Opening Hours:<br><br>
-Monday to Friday 10:00am to 11:00pm<br>
-Saturday and Sunday: 8:00am to 10:30pm<br><br>
+Monday to Friday 10:00am to 10:30pm<br>
+Saturday and Sunday: 9:00am to 5:00pm<br><br>
 Long term club bookings for 2023 are open now.<br><br></p>
 </div>
 
 <div class="hire2">
     <p class="drop-shadow-lg">
 Rates:<br><br>
-Monday to Thursday (Peak): 6pm - 11pm<br>
+Monday to Thursday (Peak): 6pm - close<br>
 $110/hour<br><br>
 All other opening hours (Off Peak):<br>
 $90/hour<br><br>
 Schools:<br>
-$90/hour<br><br>
+$80/hour<br><br>
 </p>
 </div>
 </div>
