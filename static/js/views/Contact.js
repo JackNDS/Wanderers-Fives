@@ -7,7 +7,7 @@ export default class extends AbstractView {
     }
 
     async getHtml() {
-        return `<div class="sub-page">
+        return `  <div class="sub-page">
         <h1>CONTACT US</h1>
             <div class="party-container">
             <form id="contact-form" name="Contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" onsubmit="submitForm(event)" >
@@ -35,6 +35,16 @@ export default class extends AbstractView {
                   <input type="submit" value="Submit">
                 </div>
               </form>  
+            </div>
+            <div class="contact-info">
+              <div class="contact-email">
+               <a href="mailto:wanderersfives@wswanderersfc.com.au">
+               <i class="fas fa-envelope"></i> wanderersfives@wswanderersfc.com.au</a>
+              </div>
+              <div class="contact-phone">
+                
+               <a href="tel:86026411"><i class="fas fa-phone"></i> 86026411</a>
+              </div>
             </div>
         </div>`;   
     }

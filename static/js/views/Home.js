@@ -58,9 +58,6 @@ export default class extends AbstractView {
         <a href="/five-a-side"><div class="card font-everlooser text-WSWRed">
           WHY PLAY FIVES?
         </div></a>
-        <a href="/five-a-side"><div class="card font-everlooser text-black">
-          FOOTBALL CONCEPT
-        </div></a>
         <a href="/houserules" target="popup" onclick="window.open('houserules','popup','width=600,height=800,left=100,top=100'); return false;"><div class="card font-everlooser text-WSWRed">
           HOUSE RULES
         </div></a>
