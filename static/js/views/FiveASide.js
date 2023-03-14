@@ -83,7 +83,7 @@ No slide tackles permitted
 </p>
 
     
-<a href="https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1" target="popup" onclick="window.open('https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1','popup','width=600,height=800,left=100,top=100'); return false;"><button class="btn mt-6 shadow-lg rounded-full py-2 sm:py-4 px-10 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Regsiter Here</button></a>
+<a href="https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1" target="popup" onclick="window.open('https://wanderers.duktag.net/duktag/team.cfm?location=278&create=1','popup','width=600,height=800,left=100,top=100'); return false;"><button class="btn mt-6 shadow-lg rounded-full py-2 sm:py-4 px-10 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Register Here</button></a>
 </div>
 </div>
 `;   
