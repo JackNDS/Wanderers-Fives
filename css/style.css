@@ -2586,7 +2586,6 @@ nav {
   transition: 0.3s cubic-bezier(0.694, 0.048, 0.335, 1);
   height: 100vh;
   /* Fallback for browsers that do not support Custom Properties */
-  height: calc(var(--vh, 1vh) * 100);
   border-left: solid 2px rgb(229 231 235);
   visibility: hidden;
 }

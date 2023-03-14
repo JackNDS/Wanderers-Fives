@@ -4,7 +4,7 @@ const navLinks = document.querySelectorAll('.nav-link');
 const btn = document.querySelector('.btn');
 const mobilebtn = document.querySelector('.mobile-btn');
 const menu = document.getElementById('mobile-menu');
-const mural = document.querySelector('.mural');
+/* const mural = document.querySelector('.mural'); */
 const body = document.querySelector('body');
 
 // Get all the form inputs

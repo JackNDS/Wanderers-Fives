@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <link rel="preload" href="/img/mural.png" as="image">
+   <!-- <link rel="preload" href="/img/mural.png" as="image"> -->
     
     
     <title>Wanderers Fives</title>
@@ -17,9 +17,9 @@
 </head>
 <body>
 
-     <div class="mural-container">
+   <!-- <div class="mural-container">
          <img src="/img/mural.png" id="mural" alt="Mural" class="mural">
-      </div>
+      </div> --> 
     
     <!-- Home Page - Section 1 -->
     <header>
@@ -129,8 +129,8 @@
 
     <script type="module" src="/static/js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script>
-       $(window).on("load", function(){
+  <script>
+  /*     $(window).on("load", function(){
            $(".mural-container").delay(2000).fadeOut(1000, function() {
             $('body').css('overflow-y', 'auto');
           $(this).remove();
@@ -141,7 +141,7 @@
       $(function() {
           $(window).on("load", function() {
           $('body').css('overflow-y', 'hidden');
-        });
+        }); 
 
         $(document).scroll(function() {
           if ($('.mural-container').length) {
@@ -149,7 +149,7 @@
           } else {
          $('body').css('overflow-y', 'auto');
           }
-      });
+      }); */
       $(document).scroll(function() {
   if ($('body').hasClass('no-scroll')) {
     $(document).scrollTop(0);
@@ -157,7 +157,6 @@
     $('body').css('overflow-y', 'auto');
   }
 });
-    });
     </script> 
 </body>
 </html>
