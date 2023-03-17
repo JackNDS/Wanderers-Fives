@@ -8,8 +8,13 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
+        <div class="bg-logo">
+        <img src="/img/wswsmall.png" alt="">
+        </div>
         <!-- Grid Section for Showcase -->
         <div id="home" class="grid grid-rows-2 grid-cols-6">
+
+         
           <!-- Main Showcase 1 of 3-->
         
           <div class="showcase border-solid border-gray-200 border-t-2 border-l-0 col-span-6 md:col-span-4 row-span-2" id="showcase">
