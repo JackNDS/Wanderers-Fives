@@ -9,6 +9,7 @@ import Parties from "./views/Parties.js";
 import PartyForm from "./views/PartyForm.js";
 import HouseRules from "./views/HouseRules.js";
 import Maccas from "./views/Maccas.js";
+import FivesPortal from "./views/FivesPortal.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -28,6 +29,7 @@ const router = async () => {
        { path: "/party-form", view: PartyForm},
        { path: "/houserules", view: HouseRules},
        { path: "/maccas", view: Maccas},
+       { path: "/fives-portal", view: FivesPortal},
 
     ];
     // Test each route for potential match
