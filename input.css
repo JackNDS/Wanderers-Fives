@@ -38,7 +38,7 @@ nav {
 }
 
 header {
-  background: #000;
+  background: var(--primary);
 }
 
 /* Defining Background Colours */
@@ -54,7 +54,7 @@ header {
 }
 
 #home {
-  background: #000;
+  background: var(--primary);
 }
 
 /* Custom Font - Ever Looser */
