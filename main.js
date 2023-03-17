@@ -4,8 +4,10 @@ const navLinks = document.querySelectorAll('.nav-link');
 const btn = document.querySelector('.btn');
 const mobilebtn = document.querySelector('.mobile-btn');
 const menu = document.getElementById('mobile-menu');
+const showcase = document.querySelector('.showcase');
 /* const mural = document.querySelector('.mural'); */
 const body = document.querySelector('body');
+let animationHasPlayed = false;
 
 // Get all the form inputs
 const formInputs = document.querySelectorAll('input');
@@ -44,6 +46,10 @@ themeToggle.addEventListener('click', function() {
   nav.classList.toggle('toggle-logo-2');
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  // your code goes here
+
+
 themeToggle.addEventListener('click', function() {
   if (getComputedStyle(document.documentElement).getPropertyValue('--primary') === '#c60c30') {
     document.documentElement.style.setProperty('--primary', 'black');
@@ -51,6 +57,20 @@ themeToggle.addEventListener('click', function() {
     document.documentElement.style.setProperty('--primary', '#c60c30');
   }
 });
+
+if (!animationHasPlayed) {
+  // Add a transition-delay to allow the animation to complete before removing the animation property
+  showcase.style.transitionDelay = '1.5s';
+  showcase.addEventListener('transitionend', function() {
+  // Remove the animation property from the showcase element after the animation has completed
+  showcase.style.animation = 'none';
+  }, {once: true});
+  animationHasPlayed = true;
+  }
+  });
+
+
+
 
 
 function navToggle() {

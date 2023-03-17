@@ -2686,6 +2686,24 @@ header {
   animation: resetPosition 1.5s 1s forwards;
 }
 
+.showcase5 {
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 80vh;
+  padding: 100px;
+  border-right: solid 3px rgb(229 231 235);
+  border-bottom: solid 2px rgb(229 231 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  z-index: 2;
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+}
+
 .showcase .main-img {
   position: absolute;
   bottom: 0;
@@ -3359,6 +3377,10 @@ html.is-animating .transition-fade {
     padding: 70px;
   }
 
+  .showcase5 {
+    padding: 70px;
+  }
+
   .grid .default {
     padding-left: 25px;
   }
@@ -3402,6 +3424,11 @@ html.is-animating .transition-fade {
 
 @media (max-width: 800px) {
   .showcase {
+    border-right: none;
+    padding: 60px;
+  }
+
+  .showcase5 {
     border-right: none;
     padding: 60px;
   }
@@ -3486,6 +3513,11 @@ html.is-animating .transition-fade {
 
 @media (max-width: 480px) {
   .showcase {
+    padding: 40px;
+    justify-content: center;
+  }
+
+  .showcase5 {
     padding: 40px;
     justify-content: center;
   }
@@ -3619,6 +3651,10 @@ html.is-animating .transition-fade {
 
 @media (max-width: 330px) {
   .showcase {
+    padding: 20px;
+  }
+
+  .showcase5 {
     padding: 20px;
   }
 
