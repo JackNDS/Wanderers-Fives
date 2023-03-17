@@ -2402,8 +2402,7 @@ button {
 
 nav {
   z-index: 7;
-  opacity: 0;
-  animation: resetPosition 1.5s 1s forwards;
+  opacity: 1;
 }
 
 header {
@@ -3205,9 +3204,7 @@ footer {
   color: white;
   padding-bottom: 20px;
   border-top: solid 2px rgb(229 231 235);
-  opacity: 0;
-  transform: translate3d(0%, 150%, 0);
-  animation: resetPosition 1.5s 1s forwards;
+  opacity: 1;
 }
 
 .footer-container {
