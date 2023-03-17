@@ -2403,12 +2403,11 @@ button {
 nav {
   z-index: 7;
   opacity: 0;
-  transform: translate3d(0%, -150%, 0);
   animation: resetPosition 1.5s 1s forwards;
 }
 
 header {
-  background: #000;
+  background: var(--primary);
 }
 
 /* Defining Background Colours */
@@ -2426,7 +2425,7 @@ header {
 }
 
 #home {
-  background: #000;
+  background: var(--primary);
 }
 
 /* Custom Font - Ever Looser */

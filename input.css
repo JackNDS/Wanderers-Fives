@@ -33,7 +33,6 @@ button {
 nav {
   z-index: 7;
   opacity: 0;
-  transform: translate3d(0%, -150%, 0);
   animation: resetPosition 1.5s 1s forwards;
 }
 
