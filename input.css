@@ -554,6 +554,11 @@ header {
   background: white;
   color: #000;
 }
+
+.flyer-container button {
+  margin-bottom: 50px;
+}
+
 .flyer {
   margin-bottom: 25px;
 }

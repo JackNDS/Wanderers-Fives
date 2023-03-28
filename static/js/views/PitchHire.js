@@ -35,7 +35,7 @@ $80/hour<br><br>
 <p class="drop-shadow-lg">
 <a href="mailto:CMckibbins@wswanderersfc.com.au" class="underline"> Email Wanderers Fives</a></p><br><br>
 
-<iframe id="book" class="bg-white book" src="https://wanderers.duktag.net/duktag/schedule.cfm?&court=990,991,992,993,994,995,996,997,998" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
+<iframe id="book" class="bg-white book" src="https://wanderers.duktag.net/duktag/mobile.cfm?&court=990,991,992,993,994,995,996,997,998" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 
 </div>
 </div>`;   

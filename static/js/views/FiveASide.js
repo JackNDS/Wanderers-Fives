@@ -50,6 +50,10 @@ export default class extends AbstractView {
       </div>
       <div class="flyer-container">
       <div class="flyer">
+        <img src="/img/JDShootout.jpg" alt="">
+      </div>
+      <a href="/fives-portal" data-link><button class="btn mt-6 shadow-lg rounded-full py-2 sm:py-4 px-10 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Register Here</button></a>
+      <div class="flyer">
         <img src="/img/wintercomp.webp" alt="">
       </div>
       <a href="/fives-portal" data-link><button class="btn mt-6 shadow-lg rounded-full py-2 sm:py-4 px-10 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Register Here</button></a>
