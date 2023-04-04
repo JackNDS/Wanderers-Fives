@@ -25,6 +25,14 @@ export default class extends AbstractView {
             CHECKOUT
           </div></a>
         </div>
+        <div class="flyer-container">
+      <div class="flyer">
+        <img src="/img/WSW_W5_AsianCup_Web_1920x1080.png" alt="">
+      </div>
+      <div class="flyer">
+        <img src="/img/wintercomp.webp" alt="">
+      </div>
+      </div>
       </div>
 `;   
     }
