@@ -418,7 +418,7 @@ header {
 /* Five A Side Sub-Events 1 & 2 in Grid */
 .event1 {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('/img/jdshootout.png');
+    url('/img/winter5s.png');
   background-size: cover;
   background-position: center;
   opacity: 0.8;
@@ -429,7 +429,7 @@ header {
 
 .event1:hover {
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url('/img/jdshootout.png');
+    url('/img/winter5s.png');
   background-size: cover;
   background-position: center;
 }

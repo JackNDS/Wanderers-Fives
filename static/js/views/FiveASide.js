@@ -35,7 +35,7 @@ export default class extends AbstractView {
   
         <div class="flex default items-end event1 col-span-6 md:col-span-2 p-10 border-solid border-gray-200 md:border-t-2 border-l-0 text-white" id="parties">
         <a href="/fives-portal" data-link>
-          <h1 class="text-4xl drop-shadow-lg">JD SHOOTOUT</h1>
+          <h1 class="text-4xl drop-shadow-lg">WINTER FIVES</h1>
           <p class="text-2xl tracking-tight drop-shadow-lg">Register Here</p>
           </a>
         </div>
