@@ -534,7 +534,17 @@ header {
   height: auto;
 }
 
+.inflatables {
+  font-family: 'everlooser', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 .maccas img {
+  margin-bottom: 50px;
+}
+.inflatables img {
   margin-bottom: 50px;
 }
 
