@@ -530,6 +530,9 @@ header {
 .maccas.sub-page {
   height: 100vh;
 }
+.inflatables.sub-page {
+  height: auto;
+}
 
 .maccas img {
   margin-bottom: 50px;

@@ -7,7 +7,7 @@ export default class extends AbstractView {
     }
 
     async getHtml() {
-        return ` <div class="sub-page maccas">
+        return ` <div class="sub-page inflatables">
   
         <h1 class="drop-shadow-lg">INFLATABLES PACKAGES</h1>
         <div class="flex flex-wrap justify-between">
