@@ -87,22 +87,24 @@ export default class extends AbstractView {
                       <input type="checkbox" id="product-k" name="McDonalds Ice Cream Cake" value="YES">
                       <label for="product-k">McDonalds Ice Cream Cake - $40</label>
                     </div>
-                    <div class="product">
-                      <input type="checkbox" id="product-l" name="DartBall" value="YES">
-                      <label for="product-l">DartBall - $400</label>
-                    </div>
-                    <div class="product">
-                      <input type="checkbox" id="product-m" name="Cage Soccer" value="YES">
-                      <label for="product-m">Cage Soccer - $500</label>
-                    </div>
-                    <div class="product">
-                      <input type="checkbox" id="product-n" name="Diving Goalkeeper" value="YES">
-                      <label for="product-n">Diving Goalkeeper - $400</label>
-                    </div>
-                    <div class="product">
-                      <input type="checkbox" id="product-o" name="Jumping Castle" value="YES">
-                      <label for="product-o">Jumping Castle - $500</label>
-                    </div>
+                </div>
+                <div class="product-list3">
+                <div class="product">
+                <input type="checkbox" id="product-l" name="DartBall" value="YES">
+                <label for="product-l">DartBall - $400</label>
+              </div>
+              <div class="product">
+                <input type="checkbox" id="product-m" name="Cage Soccer" value="YES">
+                <label for="product-m">Cage Soccer - $500</label>
+              </div>
+              <div class="product">
+                <input type="checkbox" id="product-n" name="Diving Goalkeeper" value="YES">
+                <label for="product-n">Diving Goalkeeper - $400</label>
+              </div>
+              <div class="product">
+                <input type="checkbox" id="product-o" name="Jumping Castle" value="YES">
+                <label for="product-o">Jumping Castle - $500</label>
+              </div>
                 </div>
                 </div>
                 <div class="form-group">

@@ -749,6 +749,11 @@ textarea {
   display: flex;
   flex-direction: column;
 }
+.product-list3 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
 
 .product {
   margin-right: 20px;
