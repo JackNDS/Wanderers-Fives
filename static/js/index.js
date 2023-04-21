@@ -10,6 +10,7 @@ import PartyForm from "./views/PartyForm.js";
 import HouseRules from "./views/HouseRules.js";
 import Maccas from "./views/Maccas.js";
 import FivesPortal from "./views/FivesPortal.js";
+import Inflatables from "./views/Inflatables.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -29,6 +30,7 @@ const router = async () => {
        { path: "/party-form", view: PartyForm},
        { path: "/houserules", view: HouseRules},
        { path: "/maccas", view: Maccas},
+       { path: "/inflatables", view: Inflatables},
        { path: "/fives-portal", view: FivesPortal},
 
     ];
