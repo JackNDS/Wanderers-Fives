@@ -80,10 +80,6 @@ export default class extends AbstractView {
                       <label for="product-i">Deploy Size 5 Match Ball - $45</label>
                     </div>
                     <div class="product">
-                      <input type="checkbox" id="product-j" name="Deploy Size 4 Match Ball" value="YES">
-                      <label for="product-j">Deploy Size 4 Match Ball - $40</label>
-                    </div>
-                    <div class="product">
                       <input type="checkbox" id="product-k" name="McDonalds Ice Cream Cake" value="YES">
                       <label for="product-k">McDonalds Ice Cream Cake - $40</label>
                     </div>
@@ -91,19 +87,19 @@ export default class extends AbstractView {
                 <div class="product-list3">
                 <div class="product">
                 <input type="checkbox" id="product-l" name="DartBall" value="YES">
-                <label for="product-l">DartBall - $400</label>
+                <label for="product-l">Inflatable DartBall - $400</label>
               </div>
               <div class="product">
                 <input type="checkbox" id="product-m" name="Cage Soccer" value="YES">
-                <label for="product-m">Cage Soccer - $500</label>
+                <label for="product-m">Inflatable Cage Soccer - $500</label>
               </div>
               <div class="product">
                 <input type="checkbox" id="product-n" name="Diving Goalkeeper" value="YES">
-                <label for="product-n">Diving Goalkeeper - $400</label>
+                <label for="product-n">Inflatable Diving Goalkeeper - $400</label>
               </div>
               <div class="product">
                 <input type="checkbox" id="product-o" name="Jumping Castle" value="YES">
-                <label for="product-o">Jumping Castle - $500</label>
+                <label for="product-o">Inflatable Jumping Castle - $500</label>
               </div>
                 </div>
                 </div>
