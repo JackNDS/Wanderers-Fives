@@ -27,13 +27,10 @@ export default class extends AbstractView {
         </div>
         <div class="flyer-container">
       <div class="flyer">
-        <img src="/img/WSW_W5_EuroCup_Social_1080x1350.webp" alt="">
+        <img src="/img/euros.png" alt="">
       </div>
       <div class="flyer">
         <img src="/img/WSW_W5_AsianCup_Web_1920x1080.png" alt="">
-      </div>
-      <div class="flyer">
-      <img src="/img/image001.png" alt="">
       </div>
       </div>
       </div>
