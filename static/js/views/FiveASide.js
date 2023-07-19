@@ -9,43 +9,35 @@ export default class extends AbstractView {
     async getHtml() {
         return `
         
-    <!-- Grid Section for Showcase -->
-    <div id="home" class="grid grid-rows-2 grid-cols-6">
-        <!-- Main Showcase 1 of 3-->
-      
-        <div class="showcase5 border-solid border-gray-200 border-t-2 border-l-0 col-span-6 md:col-span-4 row-span-2" id="showcase">
-  
-        <div class="main-img fiveaside" ></div>
-  
-        <div class="overlay"></div>
-  
-        <div class="showcase-text mt-10 xs:mt-0">
-            <h1 class="heading text-4xl sm:text-5xl lg:text-6xl  drop-shadow-lg">SUMMER FIVE-A-SIDE</h1>
-            <div class="sub-heading mt-2 mb-4 text-xl sm:text-4xl tracking-tight drop-shadow-lg">Leagues now open</div>
-            <a href="/fives-portal" data-link><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Register Now</button></a>
-        </div>
-  
-        <ul class="social">
-            <li><a target="popup" name="facebook" href="https://www.facebook.com/wswanderersfc"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a target="popup" name="instagram" href="https://www.instagram.com/wswanderersfc/"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a target="popup" name="twitter" href="https://twitter.com/wswanderersfc/"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a target="popup" name="youtube" href="https://www.youtube.com/c/WSWanderersTV"><i class="fa-brands fa-youtube"></i></a></li>
-        </ul>
-        </div>
-  
-        <div class="flex default items-end event1 col-span-6 md:col-span-2 p-10 border-solid border-gray-200 md:border-t-2 border-l-0 text-white" id="parties">
-        <a href="/fives-portal" data-link>
-          <h1 class="text-4xl drop-shadow-lg">EUROPEAN CUP</h1>
-          <p class="text-2xl tracking-tight drop-shadow-lg">Register Here</p>
-          </a>
-        </div>
-  
-        <div class="flex default items-end event2 col-span-6 md:col-span-2 p-10 border-solid border-gray-200 border-t-2 border-b-2 border-l-0 text-white" id="parties">
-        <a href="/fives-portal" data-link>
-          <h1 class="text-4xl drop-shadow-lg">ASIAN CUP</h1>
-          <p class="text-2xl tracking-tight drop-shadow-lg">Register Here</p>
-          </a>
-        </div>
+        <!-- Explore Section -->
+    <div class="explore-container">
+      <div class="explore-heading font-everlooser text-white">UPCOMING COMPETITIONS</div>
+      <div class="explore">
+        <a href="/about" data-link><div  font-everlooser text-black">
+        <img class="square" src="/img/africancup.webp" alt="">
+        </div></a
+        <a href="/fives-portal" data-link><div  font-everlooser text-black">
+        <img class="square" src="/img/summersoccersquare.webp" alt="">
+        </div></a
+        < href="#" data-link><div  font-everlooser text-black">
+        <img class="square" src="/img/copasquare.webp" alt="">
+        </div></a
+      </div>
+    </div>
+    <div class="explore-container">
+      <div class="explore-heading font-everlooser text-white">COMING SOON</div>
+      <div class="explore">
+        <div  font-everlooser text-black">
+          <img class="square" src="/img/newyearsquare.webp" alt="">
+          </div>
+          <div  font-everlooser text-black">
+          <img class="square" src="/img/winters1quare.webp" alt="">
+          </div>
+         <div  font-everlooser text-black">
+          <img class="square" src="/img/winters2quare.webp" alt="">
+          </div>
+      </div>
+    </div>
   
       </div>
       <div class="flyer-container">

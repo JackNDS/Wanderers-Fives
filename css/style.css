@@ -2803,7 +2803,7 @@ header {
 
 .event1 {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('/img/winter5s.png');
+    url('/img/WSW_W5_EuroCup_Social_1080x1350.webp');
   background-size: cover;
   background-position: center;
   cursor: pointer;
@@ -2813,7 +2813,7 @@ header {
 
 .event1:hover {
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url('/img/winter5s.png');
+    url('/img/WSW_W5_EuroCup_Social_1080x1350.webp');
   background-size: cover;
   background-position: center;
 }
@@ -2921,7 +2921,22 @@ header {
   height: 100vh;
 }
 
+.inflatables.sub-page {
+  height: auto;
+}
+
+.inflatables {
+  font-family: 'everlooser', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
 .maccas img {
+  margin-bottom: 50px;
+}
+
+.inflatables img {
   margin-bottom: 50px;
 }
 
@@ -2998,6 +3013,11 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+.square {
+  margin: 0px 30px;
+  width: 300px;
 }
 
 .card {
@@ -3137,6 +3157,12 @@ textarea {
 }
 
 .product-list2 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-list3 {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
