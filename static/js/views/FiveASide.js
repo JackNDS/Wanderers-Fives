@@ -24,7 +24,7 @@ export default class extends AbstractView {
         </div></a>
       </div>
     </div>
-    <div class="explore-container">
+    <div class="explore-container comingsoon">
       <div class="explore-heading font-everlooser text-white">COMING SOON</div>
       <div class="explore">
         <div  font-everlooser text-black">
