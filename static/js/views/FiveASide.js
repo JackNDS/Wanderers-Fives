@@ -13,7 +13,7 @@ export default class extends AbstractView {
     <div class="explore-container">
       <div class="explore-heading font-everlooser text-white">UPCOMING COMPETITIONS</div>
       <div class="explore">
-      < href="/fives-portal" data-link><div  font-everlooser text-black">
+      <a href="/fives-portal" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/summersoccersquare.webp" alt="">
         </div></a>
        <div  font-everlooser text-black">
