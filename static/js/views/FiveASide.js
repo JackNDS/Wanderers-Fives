@@ -13,12 +13,12 @@ export default class extends AbstractView {
     <div class="explore-container">
       <div class="explore-heading font-everlooser text-white">UPCOMING COMPETITIONS</div>
       <div class="explore">
-      <a href="/fives-portal" data-link><div  font-everlooser text-black">
+      < href="/fives-portal" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/summersoccersquare.webp" alt="">
         </div></a>
-        <a href="/fives-portal" data-link><div  font-everlooser text-black">
+       <div  font-everlooser text-black">
         <img class="square" src="/img/africancup.webp" alt="">
-        </div></a>
+        </div>
         
        <div  font-everlooser text-black">
         <img class="square" src="/img/copasquare.webp" alt="">
