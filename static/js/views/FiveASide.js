@@ -10,6 +10,7 @@ export default class extends AbstractView {
         return `
         
         <!-- Explore Section -->
+  <div class="sub-page">
     <div class="explore-container">
       <div class="explore-heading font-everlooser text-white">UPCOMING COMPETITIONS</div>
       <div class="explore">
@@ -39,7 +40,7 @@ export default class extends AbstractView {
           </div>
       </div>
     </div>
-
+      </div>
     <div class="sub-page">
         <h1>EXPRESSION OF INTEREST</h1>
             <div class="party-container">
