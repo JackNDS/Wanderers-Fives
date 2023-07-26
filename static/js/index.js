@@ -11,6 +11,7 @@ import HouseRules from "./views/HouseRules.js";
 import Maccas from "./views/Maccas.js";
 import FivesPortal from "./views/FivesPortal.js";
 import Inflatables from "./views/Inflatables.js";
+import AfricanCup from "./views/AfricanCup.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -32,6 +33,7 @@ const router = async () => {
        { path: "/maccas", view: Maccas},
        { path: "/inflatables", view: Inflatables},
        { path: "/fives-portal", view: FivesPortal},
+       { path: "/africancup", view: AfricanCup},
 
     ];
     // Test each route for potential match
