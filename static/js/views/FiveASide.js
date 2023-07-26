@@ -17,7 +17,7 @@ export default class extends AbstractView {
         <img class="square" src="/img/summersoccersquare.webp" alt="">
         </div></a>
         <a href="/africancup" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/africancup.webp" alt="">
+        <img class="square" src="/img/africancupsquare.webp" alt="">
         </div></a>
         
        <div  font-everlooser text-black">
