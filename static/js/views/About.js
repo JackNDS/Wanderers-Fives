@@ -20,7 +20,7 @@ Offering a range of competition divisions, tournaments and Cup style events Wand
 </div>
 
 <div class="sub-page">
-        <h1 class="drop-shadow-lg">FAQ</h1>
+        <h1 class="drop-shadow-lg">Frequently Asked Questions</h1>
         <p class="drop-shadow-lg">
 
         How long are Wanderers Fives matches?
