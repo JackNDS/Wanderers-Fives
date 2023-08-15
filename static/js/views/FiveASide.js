@@ -21,9 +21,9 @@ export default class extends AbstractView {
         <img class="square" src="/img/africancupsquare.webp" alt="">
         </div></a>
         
-       <div  font-everlooser text-black">
+        <a href="/copa" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/copasquare.webp" alt="">
-        </div>
+        </div></a>
       </div>
     </div>
     <div class="explore-container comingsoon">
