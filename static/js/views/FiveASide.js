@@ -29,9 +29,6 @@ export default class extends AbstractView {
     <div class="explore-container comingsoon">
       <div class="explore-heading font-everlooser text-white">COMING SOON</div>
       <div class="explore">
-        <div  font-everlooser text-black">
-          <img class="square" src="/img/newyearsquare.webp" alt="">
-          </div>
           <div  font-everlooser text-black">
           <img class="square" src="/img/winters1quare.webp" alt="">
           </div>
