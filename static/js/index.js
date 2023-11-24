@@ -37,6 +37,7 @@ const router = async () => {
        { path: "/fives-portal", view: FivesPortal},
        { path: "/africancup", view: AfricanCup},
        { path: "/copa", view: Copa},
+       { path: "/junior-worldcup", view: JuniorWC},
 
 
     ];
