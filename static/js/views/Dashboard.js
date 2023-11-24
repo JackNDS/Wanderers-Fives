@@ -25,7 +25,7 @@ export default class extends AbstractView {
     
           <div class="showcase-text mt-10 xs:mt-0">
               <h1 class="heading text-4xl sm:text-5xl lg:text-6xl  drop-shadow-lg">WANDERERS FIVES</h1>
-              <div class="sub-heading mt-2 mb-4 text-xl sm:text-4xl tracking-tight drop-shadow-lg">Summer World Cup kicks off 21st January 2024</div>
+              <div class="sub-heading mt-2 mb-4 text-xl sm:text-4xl tracking-tight drop-shadow-lg">Summer World Cup kicks off January 21st</div>
               <a href="five-a-side"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Join a League</button></a>
           </div>
     
