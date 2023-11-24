@@ -13,6 +13,7 @@ import FivesPortal from "./views/FivesPortal.js";
 import Inflatables from "./views/Inflatables.js";
 import AfricanCup from "./views/AfricanCup.js";
 import Copa from "./views/Copa.js";
+import JuniorWC from "./views/JuniorWC.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);

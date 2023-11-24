@@ -11,21 +11,16 @@ export default class extends AbstractView {
         
         <!-- Explore Section -->
   <div class="sub-page">
-    <!--<div class="explore-container">
+    <div class="explore-container">
       <div class="explore-heading font-everlooser text-white">UPCOMING COMPETITIONS</div>
       <div class="explore">
       <a href="/fives-portal" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/summersoccersquare.webp" alt="">
+        <img class="square" src="/img/seniorsummerfives.webp" alt="">
         </div></a>
-        <a href="/africancup" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/africancupsquare.webp" alt="">
+        <a href="/junior-worldcup" data-link><div  font-everlooser text-black">
+        <img class="square" src="/img/juniorsummerfives.webp" alt="">
         </div></a>
-        
-        <a href="/copa" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/copasquare.webp" alt="">
-        </div></a>
-      </div>
-    </div>-->
+    </div>
     <div class="explore-container comingsoon">
       <div class="explore-heading font-everlooser text-white">COMING SOON</div>
       <div class="explore">
