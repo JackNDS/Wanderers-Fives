@@ -2596,6 +2596,13 @@ header {
   transition-delay: 0.3;
 }
 
+/* Submenu */
+
+#submenu {
+  list-style: none;
+  width: 100%;
+}
+
 /* Mobile-Menu */
 
 .mobile-menu {
@@ -3005,6 +3012,10 @@ header {
   text-align: center;
 }
 
+.explore-container.comingsoon {
+  margin-top: 20px;
+}
+
 .explore-heading {
   font-size: 50px;
 }
@@ -3016,7 +3027,7 @@ header {
 }
 
 .square {
-  margin: 0px 30px;
+  margin: 20px 30px;
   width: 300px;
 }
 
@@ -3583,6 +3594,11 @@ html.is-animating .transition-fade {
     font-size: 40px;
   }
 
+  .explore-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .card {
     width: 300px;
     height: 200px;
@@ -3613,7 +3629,7 @@ html.is-animating .transition-fade {
   }
 
   .sub-page {
-    padding: 50px 20px 40px 20px;
+    padding: 50px 0px 40px 0px;
   }
 
   .sub-page h1 {
