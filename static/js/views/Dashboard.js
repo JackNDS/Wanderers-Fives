@@ -50,7 +50,6 @@ export default class extends AbstractView {
             <p class="text-2xl tracking-tight drop-shadow-lg">View Your Teams Game Times/Scores</p>
             </a>
           </div>
-          <a class="nav-link relative" target="popup" href="https://wanderers.duktag.net/duktag/fixture.cfm?" onclick="window.open('https://wanderers.duktag.net/duktag/fixture.cfm?','popup','width=500,height=800,left=400,top=100'); return false;">FIXTURES & RESULTS</a>
         </div>
         <!-- Explore Section -->
         <div class="explore-container">
