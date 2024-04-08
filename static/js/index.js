@@ -14,6 +14,7 @@ import Inflatables from "./views/Inflatables.js";
 import AfricanCup from "./views/AfricanCup.js";
 import Copa from "./views/Copa.js";
 import JuniorWC from "./views/JuniorWC.js";
+import AsianCup from "./views/AsianCup.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -38,6 +39,7 @@ const router = async () => {
        { path: "/africancup", view: AfricanCup},
        { path: "/copa", view: Copa},
        { path: "/junior-worldcup", view: JuniorWC},
+       { path: "/asian-cup", view: AsianCup},
 
 
     ];
