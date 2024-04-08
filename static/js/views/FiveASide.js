@@ -17,7 +17,7 @@ export default class extends AbstractView {
       <a href="/fives-portal" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/wintercomp.png" alt="">
         </div></a>
-       <a href="/asian-cup" data-link><div  font-everlooser text-black">
+       <a href="/asiancup" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/asiancupsquare.png" alt="">
         </div></a>
     </div>
