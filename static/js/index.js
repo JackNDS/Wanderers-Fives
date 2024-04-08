@@ -39,7 +39,7 @@ const router = async () => {
        { path: "/africancup", view: AfricanCup},
        { path: "/copa", view: Copa},
        { path: "/junior-worldcup", view: JuniorWC},
-       { path: "/asian-cup", view: AsianCup},
+       { path: "/asiancup", view: AsianCup},
 
 
     ];
