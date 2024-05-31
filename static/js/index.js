@@ -15,6 +15,7 @@ import AfricanCup from "./views/AfricanCup.js";
 import Copa from "./views/Copa.js";
 import JuniorWC from "./views/JuniorWC.js";
 import AsianCup from "./views/AsianCup.js";
+import TeqBall from ".views/TeqBall.js";
 
 const navigateTo = url => {
     history.pushState(null, null, url);
@@ -40,6 +41,9 @@ const router = async () => {
        { path: "/copa", view: Copa},
        { path: "/junior-worldcup", view: JuniorWC},
        { path: "/asiancup", view: AsianCup},
+       { path: "/teqball", view: TeqBall},
+    
+       
 
 
     ];
