@@ -2885,7 +2885,6 @@ header {
   position: absolute;
   bottom: 0px;
   /* Adjust this value according to your layout */
-  background: #c60c30;
   padding: 8px 20px;
   visibility: hidden;
   /* Initially hidden */

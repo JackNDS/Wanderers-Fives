@@ -3,6 +3,7 @@ const nav = document.querySelector('.navbar');
 const navLinks = document.querySelectorAll('.nav-link');
 const btn = document.querySelector('.btn');
 const mobilebtn = document.querySelector('.mobile-btn');
+const teqball = document.querySelector('.teqball');
 const menu = document.getElementById('mobile-menu');
 const showcase = document.querySelector('.showcase');
 /* const mural = document.querySelector('.mural'); */
@@ -37,6 +38,8 @@ themeToggle.addEventListener('click', function() {
   nav.classList.toggle('bg-primary');
   menu.classList.toggle('bg-primary');
   menu.classList.toggle('bg-secondary');
+  teqball.classList.toggle('bg-primary');
+  teqball.classList.toggle('bg-secondary');
   navLinks.forEach(function(navLink) {
     navLink.classList.toggle('white-bg');
     if (navLink.classList.contains('active')) {
