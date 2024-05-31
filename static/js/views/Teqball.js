@@ -8,19 +8,22 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
-        <div class="sub-page">
+        <div class="sub-page teqball-container">
         <h1 class="drop-shadow-lg">Teqball</h1>
+        <div class="teqball-img">
+            <img src="/img/teqball.webp" alt="">
+        </div>
         <p class="drop-shadow-lg">
 
         Wanderers 5s is excited to announce a new partnership with the Australian Teqball Federation (ATF), bringing officially the fast-paced and dynamic sport of Teqball to Sydneys West. 
 <br><br>
 </p>
-        <h1 class="drop-shadow-lg">What is Teqball</h1>
+        <h1 class="drop-shadow-lg">What is Teqball?</h1>
         <p class="drop-shadow-lg">
 
         Teqball is a football-based sport played on a specially curved table, combining elements of football with elements of table tennis. Founded in Budapest, Hungary in 2014, Teqball has gained popularity worldwide for its unique gameplay and accessibility. 
 <br><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HG25k7kJxUI?si=vGbICPDxmo0XM5WC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div><iframe width="560" height="315" src="https://www.youtube.com/embed/HG25k7kJxUI?si=vGbICPDxmo0XM5WC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 </p>
 </div>
 

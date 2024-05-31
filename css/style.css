@@ -641,6 +641,10 @@ video {
   z-index: 0;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .order-1 {
   order: 1;
 }
@@ -2596,13 +2600,6 @@ header {
   transition-delay: 0.3;
 }
 
-/* Submenu */
-
-#submenu {
-  list-style: none;
-  width: 100%;
-}
-
 /* Mobile-Menu */
 
 .mobile-menu {
@@ -2870,6 +2867,36 @@ header {
   opacity: 1;
   background-size: cover;
   background-position: center;
+}
+
+.teqball-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teqball-img {
+  max-width: 650px;
+  width: 100%;
+}
+
+.teqball {
+  position: absolute;
+  bottom: 0px;
+  /* Adjust this value according to your layout */
+  background: #c60c30;
+  padding: 8px 20px;
+  visibility: hidden;
+  /* Initially hidden */
+  transition: visibility 0.3s ease;
+  /* Add transition property */
+}
+
+.about-us:hover + .teqball, /* Display teqball link when hovering over about us */
+.teqball:hover {
+  visibility: visible;
+  /* Make the teqball link visible */
 }
 
 .sub-page h1 {

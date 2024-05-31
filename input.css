@@ -480,6 +480,35 @@ header {
   background-position: center;
 }
 
+.teqball-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teqball-img {
+  max-width: 650px;
+}
+
+.teqball-img {
+  width: 100%;
+}
+
+.teqball {
+  position: absolute;
+  bottom: 0px; /* Adjust this value according to your layout */
+  background: #c60c30;
+  padding: 8px 20px;
+  visibility: hidden; /* Initially hidden */
+  transition: visibility 0.3s ease; /* Add transition property */
+}
+
+.about-us:hover + .teqball, /* Display teqball link when hovering over about us */
+.teqball:hover {
+  visibility: visible; /* Make the teqball link visible */
+}
+
 .sub-page h1 {
   font-family: 'everlooser', sans-serif;
   font-size: 60px;
