@@ -9,19 +9,25 @@ export default class extends AbstractView {
     async getHtml() {
         return `
         <div class="sub-page teqball-container">
-        <h1 class="drop-shadow-lg">Teqball</h1>
+        <h1 class="drop-shadow-lg">TEQBALL X WSW</h1>
         <div class="teqball-img">
             <img src="/img/teqball.webp" alt="">
         </div>
         <p class="drop-shadow-lg">
 
-        Wanderers 5s is excited to announce a new partnership with the Australian Teqball Federation (ATF), bringing officially the fast-paced and dynamic sport of Teqball to Sydneys West. 
+        Wanderers Fives is excited to announce an exciting partnership with the Australian Teqball Federation (ATF), bringing the inclusive and dynamic sport of Teqball to our state-of-the-art facility in Western Sydney.<br><br>
+ 
+The partnership signifies another milestone for Wanderers Fives as we expand our offerings to provide visitors with an opportunity to experience Teqball firsthand.
 <br><br>
 </p>
-        <h1 class="drop-shadow-lg">What is Teqball?</h1>
+        <h1 class="drop-shadow-lg">WHAT IS TEQBALL?</h1>
         <p class="drop-shadow-lg">
 
-        Teqball is a football-based sport played on a specially curved table, combining elements of football with elements of table tennis. Founded in Budapest, Hungary in 2014, Teqball has gained popularity worldwide for its unique gameplay and accessibility. 
+        With a focus on technical skill, strategy, and inclusivity, Teqball has gained popularity worldwide for its unique gameplay and accessibility.
+ 
+Teqball is a football-based sport played on a specially curved table, which combines elements of football with elements table tennis.
+ 
+Founded in Budapest in 2014, Teqball has now gone onto hold three world cup tournaments in the quest to become an Olympic sport by 2028.
 <br><br>
 <div class="teqball-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/HG25k7kJxUI?si=vGbICPDxmo0XM5WC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 </p>
