@@ -26,7 +26,7 @@ export default class extends AbstractView {
           <!-- <div  font-everlooser text-black">
           <img class="square" src="/img/winters1quare.webp" alt="">
           </div> -->
-         <a href="#" data-link><div  font-everlooser text-black">
+         <a href="/fives-portal" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/summer25.png" alt="">
         </div></a>
         <a href="#" data-link><div  font-everlooser text-black">
