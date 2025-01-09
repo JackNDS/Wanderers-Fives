@@ -31,7 +31,7 @@ export default class extends AbstractView {
                 </div>
                 <div class="form-group">
                     <label for="date">Preferred Date:</label>
-                    <input type="date" id="date" name="date" min="2023-03-10" max="2024-12-31" required>
+                    <input type="date" id="date" name="date" min="2025-01-01" max="2025-12-31" required>
                   </div>
                   <div class="form-group">
                     <label for="time">Preferred Time:</label>
