@@ -62,18 +62,18 @@ export default class extends AbstractView {
                       <label for="product-e">Meeting/Function Room - $60</label>
                     </div>
                     <div class="product">
-                      <input type="checkbox" id="product-f" name="McDonalds 15 person package" value="YES">
-                      <label for="product-f">McDonalds 15 person package - $150</label>
+                      <input type="checkbox" id="product-f" name="McDonalds 12 person package" value="YES">
+                      <label for="product-f">McDonalds 12 person package - $150</label>
                     </div>
                 </div>
                 <div class="product-list2">
                     <div class="product">
-                      <input type="checkbox" id="product-g" name="McDonalds 20 person package" value="YES">
-                      <label for="product-g">McDonalds 20 person package - $200</label>
+                      <input type="checkbox" id="product-g" name="McDonalds 16 person package" value="YES">
+                      <label for="product-g">McDonalds 16 person package - $200</label>
                     </div>
                     <div class="product">
-                      <input type="checkbox" id="product-h" name="McDonalds 25 person package" value="YES">
-                      <label for="product-h">McDonalds 25 person package - $250</label>
+                      <input type="checkbox" id="product-h" name="McDonalds 20 person package" value="YES">
+                      <label for="product-h">McDonalds 20 person package - $250</label>
                     </div>
                     <div class="product">
                       <input type="checkbox" id="product-k" name="McDonalds Ice Cream Cake" value="YES">
