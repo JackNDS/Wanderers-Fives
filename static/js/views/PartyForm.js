@@ -91,7 +91,7 @@ export default class extends AbstractView {
               </div>
               <div class="product">
                 <input type="checkbox" id="product-n" name="Diving Goalkeeper" value="YES">
-                <label for="product-n">Inflatable Diving Goalkeeper - $400</label>
+                <label for="product-n">Inflatable Diving Goalkeeper - $350</label>
               </div>
               <div class="product">
                 <input type="checkbox" id="product-o" name="Jumping Castle" value="YES">

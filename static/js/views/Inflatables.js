@@ -20,7 +20,7 @@ export default class extends AbstractView {
              <img src="/img/cagesoccer.webp" alt="">
              </div>
             <div>
-            Diving Goalkeeper - $400
+            Diving Goalkeeper - $350
              <img src="/img/divingkeeper.webp" alt="">
              </div>
             <div>
