@@ -3,7 +3,7 @@ import AbstractView from "./AbstractView.js";
 export default class extends AbstractView {
     constructor() {
       super();
-        this.setTitle("junior-worldcup");
+        this.setTitle("juniors");
     }
 
     async getHtml() {
@@ -27,7 +27,7 @@ export default class extends AbstractView {
         </div>
         <div class="flyer-container">
       <div class="flyer">
-        <img src="/img/juniordeatils" alt="">
+        <img src="/img/juniordetails.png" alt="">
       </div>
     
 

@@ -13,7 +13,7 @@ import FivesPortal from "./views/FivesPortal.js";
 import Inflatables from "./views/Inflatables.js";
 import AfricanCup from "./views/AfricanCup.js";
 import Copa from "./views/Copa.js";
-import JuniorWC from "./views/JuniorWC.js";
+import Juniors from "./views/Juniors.js";
 import AsianCup from "./views/AsianCup.js";
 import Teqball from "./views/teqball.js";
 
@@ -39,7 +39,7 @@ const router = async () => {
        { path: "/fives-portal", view: FivesPortal},
        { path: "/africancup", view: AfricanCup},
        { path: "/copa", view: Copa},
-       { path: "/junior-worldcup", view: JuniorWC},
+       { path: "/juniors", view: Juniors},
        { path: "/asiancup", view: AsianCup},
        { path: "/teqball", view: Teqball},
 
