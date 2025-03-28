@@ -15,12 +15,11 @@ export default class extends AbstractView {
       <div class="explore-heading font-everlooser text-white">UPCOMING COMPETITIONS</div>
       <div class="explore">
       <a href="/fives-portal" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/summer25.png" alt="">
+        <img class="square" src="/img/autumn2025.png" alt="">
         </div></a>
-      <!-- <a href="/fives-portal" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/juniorspring.png" alt="">
+      <a href="/junior-worldcup" data-link><div  font-everlooser text-black">
+        <img class="square" src="/img/junior2025.png" alt="">
         </div></a>
-        -->
       
       
     </div>
@@ -32,10 +31,10 @@ export default class extends AbstractView {
           </div> 
          <a href="/fives-portal" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/summer25.png" alt="">
-        </div></a> -->
+        </div></a> 
         <a href="#" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/autumn25.png" alt="">
-        </div></a>
+        </div></a>-->
       </div>
     </div>
       </div>
