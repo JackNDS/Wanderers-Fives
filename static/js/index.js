@@ -11,7 +11,7 @@ import HouseRules from "./views/HouseRules.js";
 import Maccas from "./views/Maccas.js";
 import FivesPortal from "./views/FivesPortal.js";
 import Inflatables from "./views/Inflatables.js";
-import AfricanCup from "./views/AfricanCup.js";
+import GirlsOnly from "./views/GirlsOnly.js";
 import Copa from "./views/Copa.js";
 import Juniors from "./views/Juniors.js";
 import AsianCup from "./views/AsianCup.js";
@@ -37,7 +37,7 @@ const router = async () => {
        { path: "/maccas", view: Maccas},
        { path: "/inflatables", view: Inflatables},
        { path: "/fives-portal", view: FivesPortal},
-       { path: "/africancup", view: AfricanCup},
+       { path: "/girlsonly", view: GirlsOnly},
        { path: "/copa", view: Copa},
        { path: "/juniors", view: Juniors},
        { path: "/asiancup", view: AsianCup},
