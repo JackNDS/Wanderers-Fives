@@ -10,6 +10,19 @@ export default class extends AbstractView {
         return `  <div class="sub-page">
         <h1>Request Form</h1>
             <div class="party-container">
+            <p>
+        If you're hiring our BBQ as part of your birthday event, please take note of the following responsibilities to ensure everything runs smoothly:<br>
+General Use<br>
+
+Use the BBQ safely and respectfully. Only designated users (18+) should operate the BBQ. All food and waste must be cleared from the area after use. You are required to bring your own cooking utensils and food.<br><br>
+
+Gas Bottle Use<br>
+
+A gas bottle is provided with the BBQ. Please ensure the gas is turned off properly after use. Let staff know immediately if there are any issues with the bottle or BBQ.<br><br>
+
+Cleaning & Deposit<br>
+
+A $20 cleaning deposit is required for all BBQ hires. After your event, you are responsible for cleaning the BBQ thoroughly. Once staff inspect and approve the BBQ as clean, your $20 deposit will be refunded. If the BBQ is not cleaned properly, the $20 will be retained as a cleaning fee.</p><br><br>
               <div class="maccas-link"><a href="/maccas" target="popup" onclick="window.open('maccas','popup','width=1000,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">View Mcdonalds Packages</button></a></div>
               <div class="maccas-link"><a href="/inflatables" target="popup" onclick="window.open('inflatables','popup','width=1000,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">View Inflatables</button></a></div>
             <form id="party-form" name="Party" method="POST" netlify-honeypot="bot-field" data-netlify="true" onsubmit="submitForm(event)" >
@@ -96,6 +109,10 @@ export default class extends AbstractView {
               <div class="product">
                 <input type="checkbox" id="product-o" name="Jumping Castle" value="YES">
                 <label for="product-o">Inflatable Jumping Castle - $500</label>
+              </div>
+              <div class="product">
+                <input type="checkbox" id="product-p" name="BBQ Hire" value="YES">
+                <label for="product-p">BBQ Hire</label>
               </div>
                 </div>
                 </div>
