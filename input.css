@@ -499,6 +499,10 @@ header {
   margin-bottom: 30px;
 }
 
+.p-smalltext {
+  font-size: 12px;
+}
+
 .teqball-img {
   width: 100%;
 }
