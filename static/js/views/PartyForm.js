@@ -9,7 +9,7 @@ export default class extends AbstractView {
     async getHtml() {
         return `  <div class="sub-page">
         <h1>Request Form</h1>
-        <p class="text-base">
+        <p class="text-xs"">
         If you're hiring our BBQ as part of your birthday event, please take note of the following responsibilities to ensure everything runs smoothly:<br><br>
 General Use<br><br>
 
