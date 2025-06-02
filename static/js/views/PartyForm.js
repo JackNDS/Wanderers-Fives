@@ -9,8 +9,7 @@ export default class extends AbstractView {
     async getHtml() {
         return `  <div class="sub-page">
         <h1>Request Form</h1>
-            <div class="party-container">
-            <p>
+        <p class="text-sm>
         If you're hiring our BBQ as part of your birthday event, please take note of the following responsibilities to ensure everything runs smoothly:<br>
 General Use<br>
 
@@ -23,6 +22,8 @@ A gas bottle is provided with the BBQ. Please ensure the gas is turned off prope
 Cleaning & Deposit<br>
 
 A $20 cleaning deposit is required for all BBQ hires. After your event, you are responsible for cleaning the BBQ thoroughly. Once staff inspect and approve the BBQ as clean, your $20 deposit will be refunded. If the BBQ is not cleaned properly, the $20 will be retained as a cleaning fee.</p><br><br>
+            <div class="party-container">
+            
               <div class="maccas-link"><a href="/maccas" target="popup" onclick="window.open('maccas','popup','width=1000,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">View Mcdonalds Packages</button></a></div>
               <div class="maccas-link"><a href="/inflatables" target="popup" onclick="window.open('inflatables','popup','width=1000,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">View Inflatables</button></a></div>
             <form id="party-form" name="Party" method="POST" netlify-honeypot="bot-field" data-netlify="true" onsubmit="submitForm(event)" >
