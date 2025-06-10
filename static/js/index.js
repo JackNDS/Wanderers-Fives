@@ -11,7 +11,6 @@ import HouseRules from "./views/HouseRules.js";
 import Maccas from "./views/Maccas.js";
 import FivesPortal from "./views/FivesPortal.js";
 import Inflatables from "./views/Inflatables.js";
-import GirlsOnly from "./views/GirlsOnly.js";
 import Copa from "./views/Copa.js";
 import Juniors from "./views/Juniors.js";
 import AsianCup from "./views/AsianCup.js";
