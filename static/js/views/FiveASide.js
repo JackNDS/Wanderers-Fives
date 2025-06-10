@@ -20,8 +20,8 @@ export default class extends AbstractView {
       <a href="/juniors" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/junior2025.png" alt="">
         </div></a>
-      <a href="/girlsonly" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/girls2.png" alt="">
+      <a href="/clubworldcup" data-link><div  font-everlooser text-black">
+        <img class="square" src="/img/cwc.png" alt="">
         </div></a>
       
       
