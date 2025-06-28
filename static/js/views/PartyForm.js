@@ -79,8 +79,6 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
                       <input type="checkbox" id="product-f" name="McDonalds 12 person package" value="YES">
                       <label for="product-f">McDonalds 12 person package - $150</label>
                     </div>
-                </div>
-                <div class="product-list2">
                     <div class="product">
                       <input type="checkbox" id="product-g" name="McDonalds 16 person package" value="YES">
                       <label for="product-g">McDonalds 16 person package - $200</label>
@@ -93,6 +91,9 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
                       <input type="checkbox" id="product-k" name="McDonalds Ice Cream Cake" value="YES">
                       <label for="product-k">McDonalds Ice Cream Cake - $40</label>
                     </div>
+                </div>
+                <div class="product-list2">
+                    
                     <div class="product">
                       <input type="checkbox" id="product-q" name="Bubble Soccer: 1 Hour" value="YES">
                       <label for="product-q">Bubble Soccer: 1 Hour - $400</label>
