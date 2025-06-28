@@ -2886,6 +2886,13 @@ header {
 .teqball-img {
   max-width: 650px;
   margin-bottom: 30px;
+}
+
+.p-smalltext {
+  font-size: 12px;
+}
+
+.teqball-img {
   width: 100%;
 }
 
