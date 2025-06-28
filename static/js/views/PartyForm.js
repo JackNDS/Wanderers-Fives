@@ -93,6 +93,42 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
                       <input type="checkbox" id="product-k" name="McDonalds Ice Cream Cake" value="YES">
                       <label for="product-k">McDonalds Ice Cream Cake - $40</label>
                     </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-q" name="Bubble Soccer: 1 Hour" value="YES">
+                      <label for="product-q">Bubble Soccer: 1 Hour - $400</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-r" name="Bubble Soccer: 1.5 Hours" value="YES">
+                      <label for="product-r">Bubble Soccer: 1.5 Hours - 500</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-s" name="Bubble Soccer: 2 Hours" value="YES">
+                      <label for="product-s">Bubble Soccer: 2 Hours - $600</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-t" name="Human Foosball - 1 Hour" value="YES">
+                      <label for="product-t">Human Foosball - 1 Hour - $400</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-u" name="Human Foosball - 1.5 Hours" value="YES">
+                      <label for="product-u">Human Foosball - 1.5 Hour - $500</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-v" name="Human Foosball - 2 Hours" value="YES">
+                      <label for="product-v">Human Foosball - 2 Hours - $600</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-w" name="Slip N Slide Soapy Soccer - 1 Hour" value="YES">
+                      <label for="product-w">Slip N Slide Soapy Soccer - 1 Hour - $400</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-x" name="Slip N Slide Soapy Soccer - 1.5 Hours" value="YES">
+                      <label for="product-x">Slip N Slide Soapy Soccer - 1.5 Hours - $500</label>
+                    </div>
+                    <div class="product">
+                      <input type="checkbox" id="product-y" name="Slip N Slide Soapy Soccer - 2 Hours" value="YES">
+                      <label for="product-y">Slip N Slide Soapy Soccer - 2 Hours - $600</label>
+                    </div>
                 </div>
                 <div class="product-list3">
                 <div class="product">
@@ -113,7 +149,7 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
               </div>
               <div class="product">
                 <input type="checkbox" id="product-p" name="BBQ Hire" value="YES">
-                <label for="product-p">BBQ Hire</label>
+                <label for="product-p">BBQ Hire - $20</label>
               </div>
                 </div>
                 </div>
