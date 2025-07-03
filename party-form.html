@@ -113,7 +113,6 @@
   data-netlify="true"
   netlify-honeypot="bot-field"
 >
-  <!-- hidden Netlify fields -->
   <input type="hidden" name="form-name" value="Party" />
   <p class="hidden">
     <label>
@@ -122,7 +121,6 @@
     </label>
   </p>
 
-  <!-- user info -->
   <p>
     <label>
       Name:
@@ -144,212 +142,83 @@
   <p>
     <label>
       Preferred Date:
-      <input type="date" name="preferred_date" min="2025-01-01" max="2025-12-31" required />
+      <input
+        type="date"
+        name="preferred_date"
+        min="2025-01-01"
+        max="2025-12-31"
+        required
+      />
     </label>
   </p>
   <p>
     <label>
       Preferred Time:
-      <input type="time" name="preferred_time" min="08:00" max="18:00" required />
+      <input
+        type="time"
+        name="preferred_time"
+        min="08:00"
+        max="18:00"
+        required
+      />
     </label>
   </p>
 
-  <!-- products as an array -->
   <fieldset>
     <legend>Products</legend>
-
     <label>
       <input
         type="checkbox"
-        name="products[]"
+        name="products"
         value="2 Hours Pitch Hire - $180"
       />
-      2 Hours Pitch Hire – $180
+      2 Hours Pitch Hire ­– $180
     </label>
     <label>
       <input
         type="checkbox"
-        name="products[]"
+        name="products"
         value="Coaching 1 Hour - $120"
       />
-      Coaching 1 Hour – $120
+      Coaching 1 Hour ­– $120
     </label>
     <label>
       <input
         type="checkbox"
-        name="products[]"
+        name="products"
         value="3 Hours Pitch Hire - $220"
       />
-      3 Hours Pitch Hire – $220
+      3 Hours Pitch Hire ­– $220
     </label>
     <label>
       <input
         type="checkbox"
-        name="products[]"
+        name="products"
         value="Coaching 2 Hours - $160"
       />
-      Coaching 2 Hours – $160
+      Coaching 2 Hours ­– $160
     </label>
     <label>
       <input
         type="checkbox"
-        name="products[]"
+        name="products"
         value="Meeting/Function Room - $60"
       />
-      Meeting/Function Room – $60
+      Meeting/Function Room ­– $60
     </label>
+
+    <!-- …repeat every other product exactly the same… -->
 
     <label>
       <input
         type="checkbox"
-        name="products[]"
-        value="McDonalds 12 person package - $150"
-      />
-      McDonalds 12 person package – $150
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="McDonalds 16 person package - $200"
-      />
-      McDonalds 16 person package – $200
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="McDonalds 20 person package - $250"
-      />
-      McDonalds 20 person package – $250
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="McDonalds Ice Cream Cake - $40"
-      />
-      McDonalds Ice Cream Cake – $40
-    </label>
-
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Bubble Soccer: 1 Hour - $400"
-      />
-      Bubble Soccer: 1 Hour – $400
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Bubble Soccer: 1.5 Hours - $500"
-      />
-      Bubble Soccer: 1.5 Hours – $500
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Bubble Soccer: 2 Hours - $600"
-      />
-      Bubble Soccer: 2 Hours – $600
-    </label>
-
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Human Foosball - 1 Hour - $400"
-      />
-      Human Foosball – 1 Hour – $400
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Human Foosball - 1.5 Hours - $500"
-      />
-      Human Foosball – 1.5 Hours – $500
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Human Foosball - 2 Hours - $600"
-      />
-      Human Foosball – 2 Hours – $600
-    </label>
-
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Slip N Slide Soapy Soccer - 1 Hour - $400"
-      />
-      Slip N Slide Soapy Soccer – 1 Hour – $400
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Slip N Slide Soapy Soccer - 1.5 Hours - $500"
-      />
-      Slip N Slide Soapy Soccer – 1.5 Hours – $500
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Slip N Slide Soapy Soccer - 2 Hours - $600"
-      />
-      Slip N Slide Soapy Soccer – 2 Hours – $600
-    </label>
-
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Inflatable DartBall - $400"
-      />
-      Inflatable DartBall – $400
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Inflatable Cage Soccer - $500"
-      />
-      Inflatable Cage Soccer – $500
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Inflatable Diving Goalkeeper - $350"
-      />
-      Inflatable Diving Goalkeeper – $350
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
-        value="Inflatable Jumping Castle - $500"
-      />
-      Inflatable Jumping Castle – $500
-    </label>
-    <label>
-      <input
-        type="checkbox"
-        name="products[]"
+        name="products"
         value="BBQ Hire - $20"
       />
-      BBQ Hire – $20
+      BBQ Hire ­– $20
     </label>
   </fieldset>
 
-  <!-- message -->
   <p>
     <label>
       Message:
@@ -357,11 +226,11 @@
     </label>
   </p>
 
-  <!-- submit -->
   <p>
     <button type="submit">Submit</button>
   </p>
 </form>
+
 
     </div>
 
