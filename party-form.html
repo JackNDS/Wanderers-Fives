@@ -107,7 +107,8 @@
       </main>
 
     <div hidden>
-      <form
+      <!-- FINAL FIXED VERSION of the form for Netlify + 3-column layout -->
+<form
   name="Party"
   method="POST"
   data-netlify="true"
@@ -121,7 +122,6 @@
     </label>
   </p>
 
-  <!-- user info -->
   <p><label>Name: <input type="text" name="name" required /></label></p>
   <p><label>Email: <input type="email" name="email" required /></label></p>
   <p><label>Mobile: <input type="tel" name="mobile" required /></label></p>
@@ -153,186 +153,39 @@
   <!-- products in three columns -->
   <div class="product-lists">
     <div class="product-list1">
-      <p><label>
-        <input
-          type="checkbox"
-          name="2 Hours Pitch Hire - $180"
-          value="Yes"
-        />
-        2 Hours Pitch Hire – $180
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Coaching 1 Hour - $120"
-          value="Yes"
-        />
-        Coaching 1 Hour – $120
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="3 Hours Pitch Hire - $220"
-          value="Yes"
-        />
-        3 Hours Pitch Hire – $220
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Coaching 2 Hours - $160"
-          value="Yes"
-        />
-        Coaching 2 Hours – $160
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Meeting/Function Room - $60"
-          value="Yes"
-        />
-        Meeting/Function Room – $60
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="McDonalds 12 person package - $150"
-          value="Yes"
-        />
-        McDonalds 12 person package – $150
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="McDonalds 16 person package - $200"
-          value="Yes"
-        />
-        McDonalds 16 person package – $200
-      </label></p>
+      <p><label><input type="checkbox" name="2 Hours Pitch Hire - $180" value="Yes" />2 Hours Pitch Hire – $180</label></p>
+      <p><label><input type="checkbox" name="Coaching 1 Hour - $120" value="Yes" />Coaching 1 Hour – $120</label></p>
+      <p><label><input type="checkbox" name="3 Hours Pitch Hire - $220" value="Yes" />3 Hours Pitch Hire – $220</label></p>
+      <p><label><input type="checkbox" name="Coaching 2 Hours - $160" value="Yes" />Coaching 2 Hours – $160</label></p>
+      <p><label><input type="checkbox" name="Meeting/Function Room - $60" value="Yes" />Meeting/Function Room – $60</label></p>
+      <p><label><input type="checkbox" name="McDonalds 12 person package - $150" value="Yes" />McDonalds 12 person package – $150</label></p>
+      <p><label><input type="checkbox" name="McDonalds 16 person package - $200" value="Yes" />McDonalds 16 person package – $200</label></p>
+      <p><label><input type="checkbox" name="McDonalds 20 person package - $250" value="Yes" />McDonalds 20 person package – $250</label></p>
+      <p><label><input type="checkbox" name="McDonalds Ice Cream Cake - $40" value="Yes" />McDonalds Ice Cream Cake – $40</label></p>
     </div>
     <div class="product-list2">
-      <p><label>
-        <input
-          type="checkbox"
-          name="McDonalds 20 person package - $250"
-          value="Yes"
-        />
-        McDonalds 20 person package – $250
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="McDonalds Ice Cream Cake - $40"
-          value="Yes"
-        />
-        McDonalds Ice Cream Cake – $40
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Bubble Soccer: 1 Hour - $400"
-          value="Yes"
-        />
-        Bubble Soccer: 1 Hour – $400
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Bubble Soccer: 1.5 Hours - $500"
-          value="Yes"
-        />
-        Bubble Soccer: 1.5 Hours – $500
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Bubble Soccer: 2 Hours - $600"
-          value="Yes"
-        />
-        Bubble Soccer: 2 Hours – $600
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Human Foosball - 1 Hour - $400"
-          value="Yes"
-        />
-        Human Foosball – 1 Hour – $400
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Human Foosball - 1.5 Hours - $500"
-          value="Yes"
-        />
-        Human Foosball – 1.5 Hours – $500
-      </label></p>
+      <p><label><input type="checkbox" name="Bubble Soccer: 1 Hour - $400" value="Yes" />Bubble Soccer: 1 Hour – $400</label></p>
+      <p><label><input type="checkbox" name="Bubble Soccer: 1.5 Hours - $500" value="Yes" />Bubble Soccer: 1.5 Hours – $500</label></p>
+      <p><label><input type="checkbox" name="Bubble Soccer: 2 Hours - $600" value="Yes" />Bubble Soccer: 2 Hours – $600</label></p>
+      <p><label><input type="checkbox" name="Human Foosball - 1 Hour - $400" value="Yes" />Human Foosball – 1 Hour – $400</label></p>
+      <p><label><input type="checkbox" name="Human Foosball - 1.5 Hours - $500" value="Yes" />Human Foosball – 1.5 Hours – $500</label></p>
+      <p><label><input type="checkbox" name="Human Foosball - 2 Hours - $600" value="Yes" />Human Foosball – 2 Hours – $600</label></p>
+      <p><label><input type="checkbox" name="Slip N Slide Soapy Soccer - 1 Hour - $400" value="Yes" />Slip N Slide Soapy Soccer – 1 Hour – $400</label></p>
+      <p><label><input type="checkbox" name="Slip N Slide Soapy Soccer - 1.5 Hours - $500" value="Yes" />Slip N Slide Soapy Soccer – 1.5 Hours – $500</label></p>
     </div>
     <div class="product-list3">
-      <p><label>
-        <input
-          type="checkbox"
-          name="Human Foosball - 2 Hours - $600"
-          value="Yes"
-        />
-        Human Foosball – 2 Hours – $600
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Slip N Slide Soapy Soccer - 1 Hour - $400"
-          value="Yes"
-        />
-        Slip N Slide Soapy Soccer – 1 Hour – $400
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Slip N Slide Soapy Soccer - 1.5 Hours - $500"
-          value="Yes"
-        />
-        Slip N Slide Soapy Soccer – 1.5 Hours – $500
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Slip N Slide Soapy Soccer - 2 Hours - $600"
-          value="Yes"
-        />
-        Slip N Slide Soapy Soccer – 2 Hours – $600
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Inflatable DartBall - $400"
-          value="Yes"
-        />
-        Inflatable DartBall – $400
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Inflatable Cage Soccer - $500"
-          value="Yes"
-        />
-        Inflatable Cage Soccer – $500
-      </label></p>
-      <p><label>
-        <input
-          type="checkbox"
-          name="Inflatable Diving Goalkeeper - $350"
-          value="Yes"
-        />
-        Inflatable Diving Goalkeeper – $350
-      </label></p>
+      <p><label><input type="checkbox" name="Slip N Slide Soapy Soccer - 2 Hours - $600" value="Yes" />Slip N Slide Soapy Soccer – 2 Hours – $600</label></p>
+      <p><label><input type="checkbox" name="Inflatable DartBall - $400" value="Yes" />Inflatable DartBall – $400</label></p>
+      <p><label><input type="checkbox" name="Inflatable Cage Soccer - $500" value="Yes" />Inflatable Cage Soccer – $500</label></p>
+      <p><label><input type="checkbox" name="Inflatable Diving Goalkeeper - $350" value="Yes" />Inflatable Diving Goalkeeper – $350</label></p>
+      <p><label><input type="checkbox" name="Inflatable Jumping Castle - $500" value="Yes" />Inflatable Jumping Castle – $500</label></p>
+      <p><label><input type="checkbox" name="BBQ Hire - $20" value="Yes" />BBQ Hire – $20</label></p>
     </div>
   </div>
 
-  <!-- message & submit -->
   <p><label>Message: <textarea name="message"></textarea></label></p>
   <p><button type="submit">Submit</button></p>
 </form>
-
 
     </div>
 
