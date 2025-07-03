@@ -42,273 +42,223 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
     </label>
   </p>
 
-  <div class="form-group">
-    <label for="name">Name:</label>
-    <input type="text" id="name"   name="name"           required />
-  </div>
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email"          required />
-  </div>
-  <div class="form-group">
-    <label for="phone">Mobile:</label>
-    <input type="tel"   id="phone" name="mobile"         required />
-  </div>
-  <div class="form-group">
-    <label for="date">Preferred Date:</label>
-    <input
-      type="date"
-      id="date"
-      name="preferred_date"
-      min="2025-01-01"
-      max="2025-12-31"
-      required
-    />
-  </div>
-  <div class="form-group">
-    <label for="time">Preferred Time:</label>
-    <input
-      type="time"
-      id="time"
-      name="preferred_time"
-      min="08:00"
-      max="18:00"
-      required
-    />
-  </div>
+  <!-- … your Name/Email/Date/Time fields here … -->
 
   <div class="form-group">
     <label>Products:</label>
     <div class="product-lists">
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-a"
-          name="products"
-          value="2 Hours Pitch Hire - $180"
-        />
-        <label for="product-a">2 Hours Pitch Hire ­– $180</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-b"
-          name="products"
-          value="Coaching 1 Hour - $120"
-        />
-        <label for="product-b">Coaching 1 Hour ­– $120</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-c"
-          name="products"
-          value="3 Hours Pitch Hire - $220"
-        />
-        <label for="product-c">3 Hours Pitch Hire ­– $220</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-d"
-          name="products"
-          value="Coaching 2 Hours - $160"
-        />
-        <label for="product-d">Coaching 2 Hours ­– $160</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-e"
-          name="products"
-          value="Meeting/Function Room - $60"
-        />
-        <label for="product-e">Meeting/Function Room ­– $60</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-f"
-          name="products"
-          value="McDonalds 12 person package - $150"
-        />
-        <label for="product-f">McDonalds 12 person package ­– $150</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-g"
-          name="products"
-          value="McDonalds 16 person package - $200"
-        />
-        <label for="product-g">McDonalds 16 person package ­– $200</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-h"
-          name="products"
-          value="McDonalds 20 person package - $250"
-        />
-        <label for="product-h">McDonalds 20 person package ­– $250</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-k"
-          name="products"
-          value="McDonalds Ice Cream Cake - $40"
-        />
-        <label for="product-k">McDonalds Ice Cream Cake ­– $40</label>
+      <!-- Column 1 -->
+      <div class="product-list1">
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-a"
+            name="2 Hours Pitch Hire - $180"
+            value="Yes"
+          />
+          <label for="product-a">2 Hours Pitch Hire – $180</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-b"
+            name="Coaching 1 Hour - $120"
+            value="Yes"
+          />
+          <label for="product-b">Coaching 1 Hour – $120</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-c"
+            name="3 Hours Pitch Hire - $220"
+            value="Yes"
+          />
+          <label for="product-c">3 Hours Pitch Hire – $220</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-d"
+            name="Coaching 2 Hours - $160"
+            value="Yes"
+          />
+          <label for="product-d">Coaching 2 Hours – $160</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-e"
+            name="Meeting/Function Room - $60"
+            value="Yes"
+          />
+          <label for="product-e">Meeting/Function Room – $60</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-f"
+            name="McDonalds 12 person package - $150"
+            value="Yes"
+          />
+          <label for="product-f">McDonalds 12 person package – $150</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-g"
+            name="McDonalds 16 person package - $200"
+            value="Yes"
+          />
+          <label for="product-g">McDonalds 16 person package – $200</label>
+        </div>
       </div>
 
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-q"
-          name="products"
-          value="Bubble Soccer: 1 Hour - $400"
-        />
-        <label for="product-q">Bubble Soccer: 1 Hour ­– $400</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-r"
-          name="products"
-          value="Bubble Soccer: 1.5 Hours - $500"
-        />
-        <label for="product-r">Bubble Soccer: 1.5 Hours ­– $500</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-s"
-          name="products"
-          value="Bubble Soccer: 2 Hours - $600"
-        />
-        <label for="product-s">Bubble Soccer: 2 Hours ­– $600</label>
-      </div>
-
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-t"
-          name="products"
-          value="Human Foosball - 1 Hour - $400"
-        />
-        <label for="product-t">Human Foosball ­– 1 Hour ­– $400</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-u"
-          name="products"
-          value="Human Foosball - 1.5 Hours - $500"
-        />
-        <label for="product-u">Human Foosball ­– 1.5 Hours ­– $500</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-v"
-          name="products"
-          value="Human Foosball - 2 Hours - $600"
-        />
-        <label for="product-v">Human Foosball ­– 2 Hours ­– $600</label>
-      </div>
-
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-w"
-          name="products"
-          value="Slip N Slide Soapy Soccer - 1 Hour - $400"
-        />
-        <label for="product-w"
-          >Slip N Slide Soapy Soccer ­– 1 Hour ­– $400</label
-        >
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-x"
-          name="products"
-          value="Slip N Slide Soapy Soccer - 1.5 Hours - $500"
-        />
-        <label for="product-x"
-          >Slip N Slide Soapy Soccer ­– 1.5 Hours ­– $500</label
-        >
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-y"
-          name="products"
-          value="Slip N Slide Soapy Soccer - 2 Hours - $600"
-        />
-        <label for="product-y"
-          >Slip N Slide Soapy Soccer ­– 2 Hours ­– $600</label
-        >
+      <!-- Column 2 -->
+      <div class="product-list2">
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-h"
+            name="McDonalds 20 person package - $250"
+            value="Yes"
+          />
+          <label for="product-h">McDonalds 20 person package – $250</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-k"
+            name="McDonalds Ice Cream Cake - $40"
+            value="Yes"
+          />
+          <label for="product-k">McDonalds Ice Cream Cake – $40</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-q"
+            name="Bubble Soccer: 1 Hour - $400"
+            value="Yes"
+          />
+          <label for="product-q">Bubble Soccer: 1 Hour – $400</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-r"
+            name="Bubble Soccer: 1.5 Hours - $500"
+            value="Yes"
+          />
+          <label for="product-r">Bubble Soccer: 1.5 Hours – $500</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-s"
+            name="Bubble Soccer: 2 Hours - $600"
+            value="Yes"
+          />
+          <label for="product-s">Bubble Soccer: 2 Hours – $600</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-t"
+            name="Human Foosball - 1 Hour - $400"
+            value="Yes"
+          />
+          <label for="product-t">Human Foosball – 1 Hour – $400</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-u"
+            name="Human Foosball - 1.5 Hours - $500"
+            value="Yes"
+          />
+          <label for="product-u">Human Foosball – 1.5 Hours – $500</label>
+        </div>
       </div>
 
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-l"
-          name="products"
-          value="Inflatable DartBall - $400"
-        />
-        <label for="product-l">Inflatable DartBall ­– $400</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-m"
-          name="products"
-          value="Inflatable Cage Soccer - $500"
-        />
-        <label for="product-m">Inflatable Cage Soccer ­– $500</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-n"
-          name="products"
-          value="Inflatable Diving Goalkeeper - $350"
-        />
-        <label for="product-n"
-          >Inflatable Diving Goalkeeper ­– $350</label
-        >
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-o"
-          name="products"
-          value="Inflatable Jumping Castle - $500"
-        />
-        <label for="product-o">Inflatable Jumping Castle ­– $500</label>
-      </div>
-      <div class="product">
-        <input
-          type="checkbox"
-          id="product-p"
-          name="products"
-          value="BBQ Hire - $20"
-        />
-        <label for="product-p">BBQ Hire ­– $20</label>
+      <!-- Column 3 -->
+      <div class="product-list3">
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-v"
+            name="Human Foosball - 2 Hours - $600"
+            value="Yes"
+          />
+          <label for="product-v">Human Foosball – 2 Hours – $600</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-w"
+            name="Slip N Slide Soapy Soccer - 1 Hour - $400"
+            value="Yes"
+          />
+          <label for="product-w"
+            >Slip N Slide Soapy Soccer – 1 Hour – $400</label
+          >
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-x"
+            name="Slip N Slide Soapy Soccer - 1.5 Hours - $500"
+            value="Yes"
+          />
+          <label for="product-x"
+            >Slip N Slide Soapy Soccer – 1.5 Hours – $500</label
+          >
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-y"
+            name="Slip N Slide Soapy Soccer - 2 Hours - $600"
+            value="Yes"
+          />
+          <label for="product-y"
+            >Slip N Slide Soapy Soccer – 2 Hours – $600</label
+          >
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-l"
+            name="Inflatable DartBall - $400"
+            value="Yes"
+          />
+          <label for="product-l">Inflatable DartBall – $400</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-m"
+            name="Inflatable Cage Soccer - $500"
+            value="Yes"
+          />
+          <label for="product-m">Inflatable Cage Soccer – $500</label>
+        </div>
+        <div class="product">
+          <input
+            type="checkbox"
+            id="product-n"
+            name="Inflatable Diving Goalkeeper - $350"
+            value="Yes"
+          />
+          <label for="product-n"
+            >Inflatable Diving Goalkeeper – $350</label
+          >
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="form-group">
-    <label for="message">Message:</label>
-    <textarea id="message" name="message"></textarea>
-  </div>
-  <div class="submit">
-    <input type="submit" value="Submit" />
-  </div>
+  <!-- … your message + submit button here … -->
 </form>
 
 
