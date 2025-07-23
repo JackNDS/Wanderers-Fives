@@ -882,10 +882,10 @@ footer {
   justify-content: center;
   text-align: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer-logo {
-  margin: 0 50px;
   object-fit: cover;
   height: 100px;
   width: 100px;
