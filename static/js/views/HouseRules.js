@@ -14,23 +14,23 @@ export default class extends AbstractView {
         <p class="drop-shadow-lg">
             1.	The ball will continue to be played live off all rebound surfaces <br><br>
             2.	Any ball played with the foot or head that travels a full ball width above the height of the boards will be returned for a free kick to the opposition from the spot it was originally played. If the ball is deflected and travels above board height the referee will play on based on the height of the ball when it is contacted. The referee will determine control vs deflected contact.<br><br>
-            2b. All Junior leagues will play without ball height restriction, however any ball that contacts the net at either end of the pitch will be given to the goal keeper as a goal kick.<br><br>
-            3.	When a ball exits the pitch it will be returned to a the keeper as a goal kick at the end nearest the point the ball went over. <br><br>
-            4.	When a ball travels to one of the corners of the pitch, the nearest player will be given 1 metre clearance from all defenders to play it out. The defender may remain goal side but allow the ball to come out. If the referee determines a player is using the corner proximity rule to delay the game – they will be awarded a yellow card. <br><br>
-            5.	All tackling infractions are measured against player safety in a cage football environment. Contacting the ball first is not a consideration when resulting contact brings player safety into question. Any player who uses physical contact to force a player into the rebound board will be given a yellow card. Referees may also determine an offence surrounding the boards worthy of a red card with no warning. <br><br>
-            6.	Players may not play the ball whilst holding or resting on the rebound boards. Players may contact the board during a running motion without the referee stopping the play<br><br>
-            7.	Any dissent, abuse, or violent conduct towards officials, opposition, spectators, or Wanderers 5s staff will be met with a red card <br><br>
-            8.	Red cards carry an immediate 1 match ban. Any subsequent red card within a season will carry a 3-match ban. Any player receiving 3 red cards in a 12-month period will be banned from the Wanderers 5s for a period of 12 months including venue hire and facility use outside of competitions <br><br>
-            9.	Wanderers 5s is an all-weather facility. Matches will go ahead in all conditions with additional breaks given around extreme heat, uniform considerations around cold/rain.<br><br>
-            10.	In the event of lightning matches in the first half of play will be delayed for 30 minutes. If matches cannot be resumed, they will be re-scheduled.
+            2b. When the goalkeeper is in possession of the ball, they may only release it underarm. Kicking from the hands or overarm throws are not permitted. The ball must be released at a height no greater than 90 degrees from the body (i.e., shoulder height).<br><br>
+            3.	When a ball travels to one of the corners of the pitch, the nearest player will be given 1 metre clearance from all defenders to play it out. The defender may remain goal side but allow the ball to come out. If the referee determines a player is using the corner proximity rule to delay the game – they will be awarded a yellow card. <br><br>
+            4.	All tackling infractions are measured against player safety in a cage football environment. Contacting the ball first is not a consideration when resulting contact brings player safety into question. Any player who uses physical contact to force a player into the rebound board will be given a yellow card. Referees may also determine an offence surrounding the boards worthy of a red card with no warning. <br><br>
+            5.	Players may not play the ball whilst holding or resting on the rebound boards. Players may contact the board during a running motion without the referee stopping the play<br><br>
+            6.	Any dissent, abuse, or violent conduct towards officials, opposition, spectators, or Wanderers 5s staff will be met with a red card <br><br>
+            7.	Red cards carry an immediate 1 match ban. Any subsequent red card within a season will carry a 3-match ban. Any player receiving 3 red cards in a 12-month period will be banned from the Wanderers 5s for a period of 12 months including venue hire and facility use outside of competitions <br><br>
+            8.	Wanderers 5s is an all-weather facility. Matches will go ahead in all conditions with additional breaks given around extreme heat, uniform considerations around cold/rain.<br><br>
+            9.	In the event of lightning matches in the first half of play will be delayed for 30 minutes. If matches cannot be resumed, they will be re-scheduled.
             <br><br>
-            11.	 Matches in the 2nd half of play interrupted by lightning will have the match result stand from the moment play was halted.<br><br><br>
+            10.	 Matches in the 2nd half of play interrupted by lightning will have the match result stand from the moment play was halted.<br><br><br>
             
   </p>
         <h1 class="drop-shadow-lg">FIVE-A-SIDE COMP RULES</h1>
   
         <p class="drop-shadow-lg">
-            1.	Each team may field 12 players per scheduled fixture. 5 players may take the field during play including a designated goalkeeper. <br><br>
+            1a.	Each team may field 12 players per scheduled fixture. 5 players may take the field during play including a designated goalkeeper. <br><br>
+            1b.	In the Mixed Fives competition, each team must have a minimum of <b>two female players</b>in their squad. Teams are required to <b>start each game with at least one female player on the field</b>. If a team cannot field a female player at the beginning of the match, the game will be <b>forfeited</b>. However, if all female players become <b>injured during the game</b>and are unable to continue, the team may <b>play on without a female</b>without it being classified as a forfeit. <br><br>
 2.	Substitutions are unlimited throughout play and require a stoppage of play and invitation from the referee to enter the field of play. Players may not enter the field during live play.  <br><br>
 3.	A team cannot commence play with fewer than 3 players <br><br>
 4.	A team may change their nominated goalkeeper once per half during a stoppage of play and with approval of the referee. Teams may not change goalkeeper in the final 5 minutes of the second half barring injury. <br><br>

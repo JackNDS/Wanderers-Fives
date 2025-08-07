@@ -25,8 +25,7 @@ Offering a range of competition divisions, tournaments and Cup style events Wand
 
         How long are Wanderers Fives matches?
 <br><br>
-Standard Adult Competitions: 2 x 18 minute halves. Finals include five minutes of golden goal before the match goes to penalties.
-Standard Junior Competitions: 2 x 16 minute halves. Finals to include three minutes of golden goal before the match goes to penalties.<br><br>
+Standard Adult Competitions: 2 x 20 minute halves. Finals include five minutes of golden goal before the match goes to penalties. Standard Junior Competitions: 2 x 15 minute halves. Finals to include three minutes of golden goal before the match goes to penalties.<br><br>
 How many players should we register?<br><br>
 The minimum players on a team is 5 and the maximum is 12. The best playing experience is determined by how much rest each player on your team needs. We believe the perfect number is 8.<br><br>
 Does the person registering the team pay the full fee?<br><br>
