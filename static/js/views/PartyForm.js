@@ -75,9 +75,9 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
         <div class="product"><input type="checkbox" name="3 Hours Pitch Hire - $220" value="Yes" /><label>3 Hours Pitch Hire - $220</label></div>
         <div class="product"><input type="checkbox" name="Coaching 2 Hours - $160" value="Yes" /><label>Coaching 2 Hours - $160</label></div>
         <div class="product"><input type="checkbox" name="Meeting/Function Room - $60" value="Yes" /><label>Meeting/Function Room - $60</label></div>
-        <div class="product"><input type="checkbox" name="McDonalds 12 person package - $150" value="Yes" /><label>McDonalds 12 person package - $150</label></div>
-        <div class="product"><input type="checkbox" name="McDonalds 16 person package - $200" value="Yes" /><label>McDonalds 16 person package - $200</label></div>
-        <div class="product"><input type="checkbox" name="McDonalds 20 person package - $250" value="Yes" /><label>McDonalds 20 person package - $250</label></div>
+        <div class="product"><input type="checkbox" name="McDonalds 12 person package - $170" value="Yes" /><label>McDonalds 12 person package - $170</label></div>
+        <div class="product"><input type="checkbox" name="McDonalds 16 person package - $220" value="Yes" /><label>McDonalds 16 person package - $220</label></div>
+        <div class="product"><input type="checkbox" name="McDonalds 20 person package - $270" value="Yes" /><label>McDonalds 20 person package - $270</label></div>
         <div class="product"><input type="checkbox" name="McDonalds Ice Cream Cake - $40" value="Yes" /><label>McDonalds Ice Cream Cake - $40</label></div>
       </div>
 
