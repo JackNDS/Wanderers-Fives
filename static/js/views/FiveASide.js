@@ -28,7 +28,10 @@ export default class extends AbstractView {
       <div class="explore-heading font-everlooser text-white">COMING SOON</div>
       <div class="explore">
       <a href="#" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/summer.png" alt="">
+        <img class="square" src="/img/summer26.png" alt="">
+        </div></a>
+      <a href="#" data-link><div  font-everlooser text-black">
+        <img class="square" src="/img/juniorsummer26.png" alt="">
         </div></a>
           <!-- <div  font-everlooser text-black">
           <img class="square" src="/img/winters1quare.webp" alt="">
