@@ -38,6 +38,7 @@ export default class extends AbstractView {
 5.	It is recommended all players wear shin guards to take the field of play.   <br><br>
 6.	Play will commence with the referee’s whistle. All defenders must be 2 metres from the ball and within their own half. Attacking team members must be behind the ball. The ball may be played in any direction and can be played directly on goal. <br><br>
 7.	On any free kick or restart of play defenders must be outside 2m from the spot the ball will be played from <br><br>
+7.1	Any player who receives a red card during a match will be removed from the game and may not return. However, the team may substitute another player to maintain a 5v5 format. <br><br>
 8.	A goal can be scored from anywhere on the field, besides inside the goalkeeper’s circle. <br><br>
 9.	No outfield player may enter the keeper’s circle. A player is deemed to have entered the keepers circle if they contact the playing surface within the circle. If the entry does not interfere with play, play will continue.<br><br>
 9.1 If an attacking player enters the keeper’s circle and interferes with play, a free kick will be awarded to the defending team from the point where the player crossed the line. <br><br>
