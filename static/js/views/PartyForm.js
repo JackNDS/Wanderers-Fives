@@ -83,19 +83,19 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
 
       <!-- Column 2 -->
       <div class="product-list2">
-        <div class="product"><input type="checkbox" name="Bubble Soccer: 1 Hour - $440" value="Yes" /><label>Bubble Soccer: 1 Hour - $440</label></div>
-        <div class="product"><input type="checkbox" name="Bubble Soccer: 1.5 Hours - $540" value="Yes" /><label>Bubble Soccer: 1.5 Hours - $540</label></div>
-        <div class="product"><input type="checkbox" name="Bubble Soccer: 2 Hours - $640" value="Yes" /><label>Bubble Soccer: 2 Hours - $640</label></div>
-        <div class="product"><input type="checkbox" name="Human Foosball - 1 Hour - $440" value="Yes" /><label>Human Foosball - 1 Hour - $440</label></div>
-        <div class="product"><input type="checkbox" name="Human Foosball - 1.5 Hours - $540" value="Yes" /><label>Human Foosball - 1.5 Hours - $540</label></div>
-        <div class="product"><input type="checkbox" name="Human Foosball - 2 Hours - $640" value="Yes" /><label>Human Foosball - 2 Hours - $640</label></div>
-        <div class="product"><input type="checkbox" name="Slip N Slide Soapy Soccer - 1 Hour - $440" value="Yes" /><label>Slip N Slide Soapy Soccer - 1 Hour - $440</label></div>
-        <div class="product"><input type="checkbox" name="Slip N Slide Soapy Soccer - 1.5 Hours - $540" value="Yes" /><label>Slip N Slide Soapy Soccer - 1.5 Hours - $540</label></div>
+        <div class="product"><input type="checkbox" name="Bubble Soccer: 1 Hour - $495" value="Yes" /><label>Bubble Soccer: 1 Hour - $495</label></div>
+        <div class="product"><input type="checkbox" name="Bubble Soccer: 1.5 Hours - $595" value="Yes" /><label>Bubble Soccer: 1.5 Hours - $595</label></div>
+        <div class="product"><input type="checkbox" name="Bubble Soccer: 2 Hours - $695" value="Yes" /><label>Bubble Soccer: 2 Hours - $695</label></div>
+        <div class="product"><input type="checkbox" name="Human Foosball - 1 Hour - $495" value="Yes" /><label>Human Foosball - 1 Hour - $495</label></div>
+        <div class="product"><input type="checkbox" name="Human Foosball - 1.5 Hours - $595" value="Yes" /><label>Human Foosball - 1.5 Hours - $595</label></div>
+        <div class="product"><input type="checkbox" name="Human Foosball - 2 Hours - $695" value="Yes" /><label>Human Foosball - 2 Hours - $695</label></div>
+        <div class="product"><input type="checkbox" name="Slip N Slide Soapy Soccer - 1 Hour - $495" value="Yes" /><label>Slip N Slide Soapy Soccer - 1 Hour - $495</label></div>
+        <div class="product"><input type="checkbox" name="Slip N Slide Soapy Soccer - 1.5 Hours - $595" value="Yes" /><label>Slip N Slide Soapy Soccer - 1.5 Hours - $595</label></div>
       </div>
 
       <!-- Column 3 -->
       <div class="product-list3">
-        <div class="product"><input type="checkbox" name="Slip N Slide Soapy Soccer - 2 Hours - $640" value="Yes" /><label>Slip N Slide Soapy Soccer - 2 Hours - $640</label></div>
+        <div class="product"><input type="checkbox" name="Slip N Slide Soapy Soccer - 2 Hours - $695" value="Yes" /><label>Slip N Slide Soapy Soccer - 2 Hours - $695</label></div>
         <div class="product"><input type="checkbox" name="Inflatable DartBall - $400" value="Yes" /><label>Inflatable DartBall - $400</label></div>
         <div class="product"><input type="checkbox" name="Inflatable Cage Soccer - $500" value="Yes" /><label>Inflatable Cage Soccer - $500</label></div>
         <div class="product"><input type="checkbox" name="Inflatable Diving Goalkeeper - $350" value="Yes" /><label>Inflatable Diving Goalkeeper - $350</label></div>

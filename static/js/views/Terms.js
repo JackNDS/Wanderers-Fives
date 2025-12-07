@@ -36,6 +36,12 @@ export default class extends AbstractView {
         7. Any changes to a booking (e.g., time, dates or additional product purchases) must be made 48 hours prior to the scheduled booking. Any cancellations of bookings made within 48 hours of the scheduled booking may result in a $20 late cancellation fee. Changes made within 24 hours will be subject to a $25 late cancellation fee, as these have prevented another user from hiring our facility. Wanderers Fives staff will use discretion in relation to this as we understand circumstances change.<br>
         8. The Wanderers Fives is not responsible for lost, stolen, or damaged items, and items found at the facility must be reported to Lost and Found or a staff member immediately. Lost items will be held for a 3 week period, after which they may be discarded or donated, and the facility reserves the right to modify this policy or refuse to return items if ownership cannot be verified.<br>
         9. Hiring a Football -  By paying the $20 ball bond at The Wanderer Fives, you agree to return all equipment, including soccer balls, in good condition. Only customers with a confirmed booking are eligible to access the ball bond. If the equipment is lost, stolen, or damaged beyond normal wear and tear, the bond may be forfeited or partially withheld to cover the cost of repairs or replacement. The bond will be refunded in full if the equipment is returned undamaged and within the specified time frame.<br>
+        10. To run soapy soccer we require the following:<br>
+A. the weather must be dry and not windy or wet<br>
+B. You must provide a male helper to  assist with set up and pack up<br>
+C. Participants must be rinsed thoroughly with no soap on their skin after play and get changed into dry clothes and shower again at home otherwise kids with sensitive skin may develop a rash / welts even though we use sensitive skin friendly bubble bath liquid<br>
+D. We can have 8 kids on at one time if they are under 12 years of age and 6 kids on at one time if they are over 12 years of age<br>
+
 
         </p>
 </div>
