@@ -17,7 +17,8 @@ export default class extends AbstractView {
 Opening Hours:<br><br>
 Monday to Friday 10:00am to 10:30pm<br>
 Saturday and Sunday: 9:00am to 5:00pm<br><br>
-Long term club bookings for 2024 are open now.<br><br></p>
+Long term club bookings for 2026 are open now.<br><br>
+Customers need to pay before their booking to gain access to their pitch. Clients will not be permitted on the pitch unless payment is made</p><br><br>
 </div>
 
 <div class="hire2">
