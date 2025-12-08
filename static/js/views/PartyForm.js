@@ -100,7 +100,6 @@ A $20 cleaning deposit is required for all BBQ hires. After your event, you are 
         <div class="product"><input type="checkbox" name="Inflatable Cage Soccer - $500" value="Yes" /><label>Inflatable Cage Soccer - $500</label></div>
         <div class="product"><input type="checkbox" name="Inflatable Diving Goalkeeper - $350" value="Yes" /><label>Inflatable Diving Goalkeeper - $350</label></div>
         <div class="product"><input type="checkbox" name="Inflatable Jumping Castle - $500" value="Yes" /><label>Inflatable Jumping Castle - $500</label></div>
-        <div class="product"><input type="checkbox" name="BBQ Hire - $20" value="Yes" /><label>BBQ Hire - $20</label></div>
       </div>
     </div>
   </div>
