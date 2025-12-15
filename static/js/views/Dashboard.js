@@ -25,7 +25,7 @@ export default class extends AbstractView {
     
           <div class="showcase-text mt-10 xs:mt-0">
               <h1 class="heading text-4xl sm:text-5xl lg:text-6xl  drop-shadow-lg">WANDERERS FIVES</h1>
-             <div class="sub-heading mt-2 mb-4 text-xl sm:text-4xl tracking-tight drop-shadow-lg">Adults Summer Comp kicks off on Monday 2nd February! <br><br> Special Junior School Holiday Competition kicks off on Thursday 8th January running for four weeks at special price of $250 per team!</div>
+             <div class="sub-heading mt-2 mb-4 text-sm sm:text-sm tracking-tight drop-shadow-lg">Adults Summer Comp kicks off on Monday 2nd February! <br><br> Special Junior School Holiday Competition kicks off on Thursday 8th January running for four weeks at special price of $250 per team!</div>
               <a href="five-a-side"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Register Now</button></a>
           </div>
     
