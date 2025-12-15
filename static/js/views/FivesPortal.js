@@ -27,7 +27,7 @@ export default class extends AbstractView {
         </div>
         <div class="flyer-container">
       <div class="flyer">
-        <img src="/img/springschedule.png" alt="">
+        <img src="/img/summerschedule.png" alt="">
       </div>
       </div>
       <div class="sub-page">
