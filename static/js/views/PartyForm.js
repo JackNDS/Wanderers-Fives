@@ -15,14 +15,14 @@ export default class extends AbstractView {
               <div class="maccas-link"><a href="/maccas" target="popup" onclick="window.open('maccas','popup','width=1000,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">View Mcdonalds Packages</button></a></div>
               <div class="maccas-link"><a href="/inflatables" target="popup" onclick="window.open('inflatables','popup','width=1000,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">View Inflatables</button></a></div>
                             
-              <p class="p-smalltext">
+              <div>
 Soapy Soccer<br><br>
 
 To run soapy soccer we require the following:<br>
 A. the weather must be dry and not windy or wet<br>
 B. You must provide a male helper to  assist with set up and pack up<br>
 C. Participants must be rinsed thoroughly with no soap on their skin after play and get changed into dry clothes and shower again at home otherwise kids with sensitive skin may develop a rash / welts even though we use sensitive skin friendly bubble bath liquid<br>
-D. We can have 8 kids on at one time if they are under 12 years of age and 6 kids on at one time if they are over 12 years of age</p><br><br>
+D. We can have 8 kids on at one time if they are under 12 years of age and 6 kids on at one time if they are over 12 years of age</div><br><br></div> 
 
 <form
   id="party-form"
