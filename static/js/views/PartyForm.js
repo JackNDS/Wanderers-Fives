@@ -10,18 +10,13 @@ export default class extends AbstractView {
         return `  <div class="sub-page">
         <h1>Request Form</h1>
         <p class="p-smalltext">
-        If you're hiring our BBQ as part of your birthday event, please take note of the following responsibilities to ensure everything runs smoothly:<br><br>
-General Use<br><br>
+Soapy Soccer<br><br>
 
-Use the BBQ safely and respectfully. Only designated users (18+) should operate the BBQ. All food and waste must be cleared from the area after use. You are required to bring your own cooking utensils and food.<br><br>
-
-Gas Bottle Use<br><br>
-
-A gas bottle is provided with the BBQ. Please ensure the gas is turned off properly after use. Let staff know immediately if there are any issues with the bottle or BBQ.<br><br>
-
-Cleaning & Deposit<br><br>
-
-A $20 cleaning deposit is required for all BBQ hires. After your event, you are responsible for cleaning the BBQ thoroughly. Once staff inspect and approve the BBQ as clean, your $20 deposit will be refunded. If the BBQ is not cleaned properly, the $20 will be retained as a cleaning fee.</p><br>
+10. To run soapy soccer we require the following:<br>
+A. the weather must be dry and not windy or wet<br>
+B. You must provide a male helper to  assist with set up and pack up<br>
+C. Participants must be rinsed thoroughly with no soap on their skin after play and get changed into dry clothes and shower again at home otherwise kids with sensitive skin may develop a rash / welts even though we use sensitive skin friendly bubble bath liquid<br>
+D. We can have 8 kids on at one time if they are under 12 years of age and 6 kids on at one time if they are over 12 years of age</p><br><br>
             <div class="party-container">
             
               <div class="maccas-link"><a href="/maccas" target="popup" onclick="window.open('maccas','popup','width=1000,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">View Mcdonalds Packages</button></a></div>
