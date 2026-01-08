@@ -54,7 +54,7 @@ D. We can have 8 kids on at one time if they are under 12 years of age and 6 kid
   </div>
   <div class="form-group">
     <label for="date">Preferred Date:</label>
-    <input type="date" id="date" name="preferred_date" min="2025-01-01" max="2025-12-31" required />
+    <input type="date" id="date" name="preferred_date" min="2026-01-01" max="2026-12-31" required />
   </div>
   <div class="form-group">
     <label for="time">Preferred Time:</label>
