@@ -13,7 +13,7 @@ export default class extends AbstractView {
         <h1 class="drop-shadow-lg">PITCH HIRE</h1>
 <div class="hire-container">
 <div class="hire1">
-    < class="drop-shadow-lg">
+    <div class="drop-shadow-lg">
 Opening Hours:<br><br>
 Monday to Friday 10:00am to 10:30pm<br>
 Saturday and Sunday: 9:00am to 5:00pm<br><br>
