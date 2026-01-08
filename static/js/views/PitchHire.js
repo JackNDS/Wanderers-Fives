@@ -13,12 +13,13 @@ export default class extends AbstractView {
         <h1 class="drop-shadow-lg">PITCH HIRE</h1>
 <div class="hire-container">
 <div class="hire1">
-    <p class="drop-shadow-lg">
+    < class="drop-shadow-lg">
 Opening Hours:<br><br>
 Monday to Friday 10:00am to 10:30pm<br>
 Saturday and Sunday: 9:00am to 5:00pm<br><br>
 Long term club bookings for 2026 are open now.<br><br>
-Customers need to pay before their booking to gain access to their pitch. Clients will not be permitted on the pitch unless payment is made</p><br><br>
+Customers need to pay before their booking to gain access to their pitch. Clients will not be permitted on the pitch unless payment is made<br><br>
+Access to pitch hire is limited to the booked time. Any extension beyond the scheduled booking period will be subject to additional fees.<br><br></p>
 </div>
 
 <div class="hire2">
