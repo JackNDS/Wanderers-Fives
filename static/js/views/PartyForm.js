@@ -22,7 +22,8 @@ To run soapy soccer we require the following:<br>
 A. the weather must be dry and not windy or wet<br>
 B. You must provide a male helper to  assist with set up and pack up<br>
 C. Participants must be rinsed thoroughly with no soap on their skin after play and get changed into dry clothes and shower again at home otherwise kids with sensitive skin may develop a rash / welts even though we use sensitive skin friendly bubble bath liquid<br>
-D. We can have 8 kids on at one time if they are under 12 years of age and 6 kids on at one time if they are over 12 years of age</div><br><br></div> 
+D. We can have 8 kids on at one time if they are under 12 years of age and 6 kids on at one time if they are over 12 years of age</div><br>
+Please note Slip N Slide Soapy Soccer will only operate from September-April.<br><br></div> 
 
 <form
   id="party-form"
