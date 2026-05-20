@@ -11,7 +11,7 @@ export default class extends AbstractView {
         <!-- Explore Section -->
     <div class="explore-container">
         <div class="explore-heading font-everlooser text-white">Fives Portal</div>
-        <div class="text-white">The Wanderers Fives World Cup presented by Western Sydney International Airport will be a free social mixed tournament held on Sunday evenings from June 29 - July 19, football, food trucks and plenty of fun to be had for the whole family!</div>
+        <div class="text-white text-lg">The Wanderers Fives World Cup presented by Western Sydney International Airport will be a free social mixed tournament held on Sunday evenings from June 29 - July 19, football, food trucks and plenty of fun to be had for the whole family!</div>
         <div class="explore">
         <a href="https://wanderers.duktag.net/duktag/team.cfm?location=355&create=1" target="popup" onclick="window.open('https://wanderers.duktag.net/duktag/team.cfm?location=355&create=1','popup','width=600,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-black">
             CREATE A TEAM
