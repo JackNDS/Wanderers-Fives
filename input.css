@@ -110,7 +110,9 @@ header {
   transform: scaleX(0);
   transition: -webkit-transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out;
-  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+  transition:
+    transform 150ms ease-in-out,
+    -webkit-transform 150ms ease-in-out;
 }
 
 .white-bg::after {
@@ -376,7 +378,8 @@ header {
 
 /* Showcase 2 of 3 in Grid */
 .parties {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('/img/parties.png');
   background-size: cover;
   background-position: center;
@@ -388,7 +391,8 @@ header {
 }
 
 .parties:hover {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url('/img/parties.png');
   background-size: cover;
   background-position: center;
@@ -396,7 +400,8 @@ header {
 
 /* Showcase 3 of 3 in Grid */
 .hire {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('/img/hire.png');
   background-size: cover;
   background-position: center;
@@ -409,7 +414,8 @@ header {
 }
 
 .hire:hover {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url('/img/hire.png');
   background-size: cover;
   background-position: center;
@@ -417,7 +423,8 @@ header {
 
 /* Five A Side Sub-Events 1 & 2 in Grid */
 .event1 {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('/img/WSW_W5_EuroCup_Social_1080x1350.webp');
   background-size: cover;
   background-position: center;
@@ -428,14 +435,16 @@ header {
 }
 
 .event1:hover {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url('/img/WSW_W5_EuroCup_Social_1080x1350.webp');
   background-size: cover;
   background-position: center;
 }
 
 .event2 {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('/img/asiancup.webp');
   background-size: cover;
   background-position: center;
@@ -446,7 +455,8 @@ header {
 }
 
 .event2:hover {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url('/img/asiancup.webp');
   background-size: cover;
   background-position: center;
@@ -556,6 +566,8 @@ header {
 .hire2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .general-terms.sub-page p {
