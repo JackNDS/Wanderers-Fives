@@ -38,7 +38,7 @@ $80/hour<br><br>
 <a href="mailto:fives@wswanderersfc.com.au" class="underline"> Email Wanderers Fives</a></p><br><br>
 
 </div>
-<a href="https://wanderers.intrac.com.au/dashboard?page=space" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=space','popup','width=700,height=1000,left=100,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Book a Pitch</button></a>
+<a href="https://wanderers.intrac.com.au/dashboard?page=space" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=space','popup','width=700,height=1000,left=250,top=100'); return false;"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Book a Pitch</button></a>
 </div>`;   
     }
 }

@@ -566,8 +566,6 @@ header {
 .hire2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .general-terms.sub-page p {
