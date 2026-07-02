@@ -40,8 +40,8 @@ export default class extends AbstractView {
             </a>
           </div>
     
-          <div target="popup" href="https://wanderers.duktag.net/duktag/fixture.cfm?" onclick="window.open('https://wanderers.duktag.net/duktag/fixture.cfm?','popup','width=500,height=800,left=400,top=100'); return false;" class="flex clickable-container default items-end hire col-span-6 md:col-span-2 p-10 border-solid border-gray-200 border-t-2 border-b-2 border-l-0 text-white" id="parties">
-          <a target="popup" href="https://wanderers.duktag.net/duktag/fixture.cfm?" onclick="window.open('https://wanderers.duktag.net/duktag/fixture.cfm?','popup','width=500,height=800,left=400,top=100'); return false;">
+          <div target="popup" href="wanderers.intrac.com.au/dashboard?page=team&tab=fixtures_results" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=team&tab=fixtures_results','popup','width=500,height=800,left=400,top=100'); return false;" class="flex clickable-container default items-end hire col-span-6 md:col-span-2 p-10 border-solid border-gray-200 border-t-2 border-b-2 border-l-0 text-white" id="parties">
+          <a target="popup" href="https://wanderers.intrac.com.au/dashboard?page=team&tab=fixtures_results" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=team&tab=fixtures_results','popup','width=500,height=800,left=400,top=100'); return false;">
             <h1 class="text-4xl drop-shadow-lg">FIXTURES & RESULTS</h1>
             <p class="text-2xl tracking-tight drop-shadow-lg">View Your Teams Game Times/Scores</p>
             </a>
