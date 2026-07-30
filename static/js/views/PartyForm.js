@@ -98,6 +98,12 @@ Please note Slip N Slide Soapy Soccer will only operate from September-April.<br
         <div class="product"><input type="checkbox" name="Inflatable Cage Soccer - $500" value="Yes" /><label>Inflatable Cage Soccer - $500</label></div>
         <div class="product"><input type="checkbox" name="Inflatable Diving Goalkeeper - $350" value="Yes" /><label>Inflatable Diving Goalkeeper - $350</label></div>
         <div class="product"><input type="checkbox" name="Inflatable Jumping Castle - $500" value="Yes" /><label>Inflatable Jumping Castle - $500</label></div>
+        <div class="product"><input type="checkbox" name="Meeting Room 1 Hour - $60" value="Yes" /><label>Meeting Room 1 Hour - $60</label></div>
+        <div class="product"><input type="checkbox" name="Meeting Room 2 Hours - $90" value="Yes" /><label>Meeting Room 2 Hours - $90</label></div>
+        <div class="product"><input type="checkbox" name="Meeting Room 3 Hours - $110" value="Yes" /><label>Meeting Room 3 Hours - $110</label></div>
+        <div class="product"><input type="checkbox" name="Meeting Room 4 Hours - $130" value="Yes" /><label>Meeting Room 4 Hours - $130</label></div>
+        <div class="product"><input type="checkbox" name="Meeting Room 5 Hours or more - $150" value="Yes" /><label>Meeting Room 5 Hours or more - $150</label></div>
+        <div class="product"><input type="checkbox" name="Ice Cream Cake - $30" value="Yes" /><label>Ice Cream Cake - $30</label></div>
       </div>
     </div>
   </div>

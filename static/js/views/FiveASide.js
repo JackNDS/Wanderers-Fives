@@ -14,11 +14,9 @@ export default class extends AbstractView {
     <div class="explore-container">
       <div class="explore-heading font-everlooser text-white">UPCOMING COMPETITIONS</div>
       <div class="explore">
+      
       <a href="/fives-portal" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/worldcup.png" alt="">
-        </div></a>
-      <a href="/fives-portal" data-link><div  font-everlooser text-black">
-        <img class="square" src="/img/autumn2025.png" alt="">
+        <img class="square" src="/img/spring2026.png" alt="">
         </div></a>
     <!--  <a href="/juniors" data-link><div  font-everlooser text-black">
         <img class="square" src="/img/juniorsummer26.png" alt="">
