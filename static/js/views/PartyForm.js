@@ -75,6 +75,7 @@ Please note Slip N Slide Soapy Soccer will only operate from September-April.<br
         <div class="product"><input type="checkbox" name="McDonalds 12 person package - $170" value="Yes" /><label>McDonalds 12 person package - $170</label></div>
         <div class="product"><input type="checkbox" name="McDonalds 16 person package - $220" value="Yes" /><label>McDonalds 16 person package - $220</label></div>
         <div class="product"><input type="checkbox" name="McDonalds 20 person package - $270" value="Yes" /><label>McDonalds 20 person package - $270</label></div>
+        <div class="product"><input type="checkbox" name="BBQ Hire - $50" value="Yes" /><label>BBQ Hire - $50</label></div>
       </div>
 
       <!-- Column 2 -->
