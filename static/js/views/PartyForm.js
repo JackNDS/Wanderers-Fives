@@ -25,6 +25,12 @@ C. Participants must be rinsed thoroughly with no soap on their skin after play 
 D. We can have 8 kids on at one time if they are under 12 years of age and 6 kids on at one time if they are over 12 years of age</div><br>
 Please note Slip N Slide Soapy Soccer will only operate from September-April.<br><br></div> 
 
+<div> Bubble & Soapy Soccer Update <br><br>
+
+Bubble Soccer and Soapy Soccer will be available for birthday bookings until 30 September 2026.<br><br>
+
+From 1 October 2026, these activities will no longer be available at WSW Fives. We apologise for any inconvenience and thank you for your understanding!<br><br> </div>
+
 <form
   id="party-form"
   name="Party"
