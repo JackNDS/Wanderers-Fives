@@ -11,8 +11,10 @@ export default class extends AbstractView {
         <!-- Explore Section -->
     <div class="explore-container">
         <div class="explore-heading font-everlooser text-white">Fives Portal</div>
-        <div class="text-white px-7 text-lg">Monday Men's Comp - 12 weeks $109 per player<br>
-        Tuesday Mixed and Women's - 10 weeks $99 per player<br><br>
+        <div class="text-white px-7 text-lg">Monday Men's Comp - Full <br>
+Tuesday Mixed and Women's still spots available - $99 per player<br>
+Thursday Men's - 10 Weeks - $99 per player<br>
+Junior Comps - 6 Weeks; Tuesday and Thursdays $69 per player - Wanderers Junior Membership included!<br><br>
         Wanderers Junior Mini Summer Comps coming November - <a href="mailto:fives@wswanderersfc.com.au">Express your interest</a>
         </div>
         <div class="explore">
