@@ -18,16 +18,16 @@ Junior Comps - 6 Weeks; Tuesday and Thursdays $69 per player - Wanderers Junior 
         Wanderers Junior Mini Summer Comps coming November - <a href="mailto:fives@wswanderersfc.com.au">Express your interest</a>
         </div>
         <div class="explore">
-        <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=team&tab=create_team','popup','width=600,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-black">
+        <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=team&tab=create_team','popup','width=400,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-black">
             CREATE A TEAM
           </div></a>
-          <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=team&tab=join_team','popup','width=600,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-WSWRed">
+          <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?page=team&tab=join_team','popup','width=400,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-WSWRed">
             JOIN A TEAM
           </div></a>
-          <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard','popup','width=600,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-black">
+          <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard','popup','width=400,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-black">
             TEAM CAPTAIN LOGIN
           </div></a>
-          <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?cart=true','popup','width=600,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-WSWRed">
+          <a href="https://wanderers.intrac.com.au/dashboard?page=team" target="popup" onclick="window.open('https://wanderers.intrac.com.au/dashboard?cart=true','popup','width=400,height=800,left=400,top=100'); return false;"><div class="card font-everlooser text-WSWRed">
             CHECKOUT
           </div></a>
         </div>
