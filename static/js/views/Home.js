@@ -22,10 +22,15 @@ export default class extends AbstractView {
           <div class="showcase-text mt-10 xs:mt-0">
               <h1 class="heading text-4xl sm:text-5xl lg:text-6xl  drop-shadow-lg">WANDERERS FIVES</h1>
               <div class="sub-heading mt-2 mb-4 text- sm:text-xl tracking-tight drop-shadow-lg">New Men's Thursday Night 10-week Spring Comp<br>
- Starting 24th September through to 26th Novembert</div>
+ Starting 24th September through to 26th November <br><br>
+Junior Summer Comps Registrations Now Open<br>
+U/9's, U/10's, U/11's, U/12's Tuesdays from 3rd November - Tuesday 8th December<br>
+U/13's, U/14's, U/15's, U/16's Thursdays from 5th November - Thursday 10th December<br>
+All Junior team registrations include a Wanderers Membership!</div>
               <a href="/five-a-side"><button class="btn -ml-1 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:translate-y-1 transition-transform duration-500 ease-in-out text-2xl tracking-wide"">Register Now</button></a>
           </div>
     
+
           <ul class="social">
               <li><a target="popup" name="facebook" href="https://www.facebook.com/wswanderersfc"><i class="fa-brands fa-facebook"></i></a></li>
               <li><a target="popup" name="instagram" href="https://www.instagram.com/wswanderersfc/"><i class="fa-brands fa-instagram"></i></a></li>
